@@ -3,6 +3,11 @@
   --color-green: #367b51;
   --color-salmon: #eb6a60;
   --color-turquoise: #4d8984;
+  --color-salt: #61acf0; /* blue */
+  --color-fat: #f0a561; /* orange */
+  --color-acid: #cbd20a; /* lime */
+  --color-heat: #e74a2f; /* red */
+  --color-black: #1a1917; /* black */
 }
 
 /* Let's load some fonts */
@@ -10,7 +15,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-
 
 body { font-family: 'Open Sans' }
 
@@ -38,7 +42,6 @@ div.my-footer span {
   font-size: 160%;
 }
 
-}
 
 .blue {
   color: var(--color-blue);
@@ -50,4 +53,45 @@ div.my-footer span {
 
 .salmon {
   color: var(--color-salmon);
+}
+
+
+.salt {
+  color: var(--color-salt);
+  font-size: 200%;
+  font-weight:700;
+}
+
+.fat {
+  color: var(--color-fat);
+  font-size: 200%;
+  font-weight:700;
+}
+
+.acid {
+  color: var(--color-acid);
+  font-size: 200%;
+  font-weight:700;
+}
+
+.heat {
+  color: var(--color-heat);
+  font-size: 200%;
+  font-weight:700;
+}
+
+.saltinline {
+  color: var(--color-salt);
+}
+
+.fatinline {
+  color: var(--color-fat);
+}
+
+.acidinline {
+  color: var(--color-acid);
+}
+
+.heatinline {
+  color: var(--color-heat);
 }
