@@ -1,0 +1,70 @@
+---
+title: "Observando desde el espacio: agricultura y medio ambiente"
+subtitle: "<small>[GIS Day 2020](https://www.gisday.com/en-us/overview)</small>"
+author: "Carlos Granell, Estefanía Aguilar" 
+institute: "<small>[GEOTEC research group](http://geotec.uji.es/) - Universitat Jaume I, España</small>"
+date: "18 Noviembre 2020"
+output:
+  xaringan::moon_reader:
+    css: ["default", "cgc-xaringan-style.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+#devtools::install_github("hadley/emo")
+# devtools::install_github("rstudio/fontawesome")
+#library(emo)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+```
+
+layout: true
+  
+<div class="my-footer"><span><a href="https://geotecinit.github.io/GISDay2020/index.html">geotecinit.github.io/GISDay2020</a></span></div>
+
+---
+class: inverse, center, middle
+
+# SIG y Mapas
+
+
+---
+class: inverse, center, middle
+
+# Tecnologías emergentes para la agricultura
+
+
+---
+class: inverse, center, middle
+
+# Sumario
+
+
+
+---
+class: right, middle
+
+### Find GEOTEC at...
+
+[`r fontawesome::fa(name = "link")` geotec](http://geotec.uji.es/)  
+
+### Find me at...
+
+[`r fontawesome::fa(name = "github")` @cgranell](http://github.com/cgranell)  
+[`r fontawesome::fa(name = "link")` carlosgranell.eu](https://carlosgranell.eu)  
+[`r fontawesome::fa(name = "paper-plane")` carlos.granell@uji.es](mailto:carlos.granell@uji.es)
+
+### Find slides at...
+
+[`r fontawesome::fa(name = "link")` geotecinit/GISDay2020](https://geotecinit.github.io/GISDay2020/index.html)  
+
+### Find sources at...
+
+[`r fontawesome::fa(name = "github")` github.com/GeoTecINIT/GISDay2020](https://github.com/GeoTecINIT/GISDay2020)  
+
+
