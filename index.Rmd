@@ -1,6 +1,6 @@
 ---
 title: "Observando desde el espacio: agricultura y medio ambiente"
-subtitle: "<small>[GIS Day 2020](https://www.gisday.com/en-us/overview)</small>"
+subtitle: "<small>[GIS Day 2020](https://www.gisday.com/en-us/overview)</small> `r emo::ji('earth')`"
 author: "Carlos Granell, Estefanía Aguilar" 
 institute: "<small>[GEOTEC research group](http://geotec.uji.es/) - Universitat Jaume I, España</small>"
 date: "18 Noviembre 2020"
@@ -19,7 +19,7 @@ output:
 options(htmltools.dir.version = FALSE)
 #devtools::install_github("hadley/emo")
 # devtools::install_github("rstudio/fontawesome")
-#library(emo)
+library(emo)
 library(fontawesome) # from github: https://github.com/rstudio/fontawesome
 ```
 
@@ -28,22 +28,171 @@ layout: true
 <div class="my-footer"><span><a href="https://geotecinit.github.io/GISDay2020/index.html">geotecinit.github.io/GISDay2020</a></span></div>
 
 ---
-class: inverse, center, middle
+class: center
 
-# SIG y Mapas
+![](figs/gisday-logo-proyectos.jpg)
 
 
+<!------------------------->
+<!-- BLOQUE INTRODUCCIÓN -->
+<!------------------------->
 ---
 class: inverse, center, middle
 
-# Tecnologías emergentes para la agricultura
+# GISDay 2020
+
+---
+# .center[¿Qué se celebra el 18 noviembre?]
+
+.center[Día Europeo para la protección de los niños de la explotación sexual]
+
+--
+
+.center[Día Mundial de los Record Guinness]
+
+--
+
+.center[Día Europeo del uso prudente de antibióticos]
+
+--
+
+.center[Día Internacional del Arte Islámico]
+
+--
+
+.center[.large[Día del Sistema de Información Geográfica `r emo::ji("earth")` - [GIS Day](https://www.gisday.com/)]]
 
 
+???
+
+Concienciar de la importancia que la geografía desempeña en nuestras vidas, y promover la profundización del tema en las escuelas, comunidades y organizaciones. [Wikipedia](https://es.wikipedia.org/wiki/GIS_Day)
+
+---
+
+
+.left-column[
+  ### GISDay y GEOTEC
+]
+
+.right-column[
+.center[<img src="figs/gisday-geotec.png" width="80%"/>]
+]
+
+
+
+---
+
+.left-column[
+  ### GISDay y GEOTEC
+  ### GISDay 2019
+]
+
+.right-column[
+.center[<img src="http://geotec.uji.es/wp-content/uploads/2019/11/Sketch_blogpost-e1573826748231.jpg" width="80%"/>]
+]
+
+
+---
+
+.left-column[
+  ### GISDay y GEOTEC
+  ### GISDay 2019
+  ### GISDay 2020
+]
+
+.right-column[![](figs/gisday2020-spain.png)]
+
+
+---
+
+
+.left-column[
+  ### GISDay y GEOTEC
+  ### GISDay 2019
+  ### GISDay 2020
+]
+
+.right-column[
+.pull-left[.top[<img src="figs/grado-agro-logo.png" width="90%"/>]]
+
+.pull-right[.bottom[<img src="figs/grado-agro-salidas.png" width="100%"/>]] 
+
+]
+
+
+
+<!------------------------->
+<!-- BLOQUE PRINCIPAL    -->
+<!------------------------->
+---
+class: inverse, center, middle
+
+# Tecnologías GIS emergentes
+
+--
+
+### [¿Como pueden ayudaros en la agricultura/medio ambiente]() 
+
+---
+
+.left-column[
+  ### GIS y maps
+]
+
+.right-column[
+* Contar historias
+* Encontrar respuestas desde una nueva prespectiva
+* Hacernos nuevas preguntas
+]
+
+---
+
+.left-column[
+  ### GIS y maps
+]
+
+.right-column[
+Muchos tipos de datos.... Imagen aqui]
+
+
+---
+
+.left-column[
+  ### GIS y maps
+]
+
+.right-column[
+* Datos pare valorar, monitorizar, tomar decision
+]
+
+
+---
+
+.left-column[
+  ### GIS y maps
+]
+
+.right-column[
+Nos centramos en datos de **Observacion de la Tierra**]
+
+
+
+
+
+
+
+
+<!------------------------->
+<!-- BLOQUE CIERRE       -->
+<!------------------------->
 ---
 class: inverse, center, middle
 
 # Sumario
 
+---
+
+# Contenido bloque
 
 
 ---

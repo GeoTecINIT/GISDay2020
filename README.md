@@ -27,7 +27,7 @@ Aquí listamos las referencias a servicios, aplicaciones y sitios web mencionado
 
 * [Sentinel-hub EO-Browser](https://apps.sentinel-hub.com/eo-browser/)
 
-* [Wayback machine](https://livingatlas.arcgis.com/wayback/?ext=-0.13641,39.91525,0.06101,40.03233&active=119]
+* [Wayback machine](https://livingatlas.arcgis.com/wayback/?ext=-0.13641,39.91525,0.06101,40.03233&active=119)
 
 * El Español, [Agricultura computacional, el último proyecto de Google revolucionará el campo](https://www.elespanol.com/omicrono/tecnologia/20201021/agricultura-computacional-ultimo-proyecto-google-revolucionara-campo/529697524_0.html) (21 octubre, 2020)
   * [Mineral](https://x.company/projects/mineral/)
@@ -37,4 +37,8 @@ Aquí listamos las referencias a servicios, aplicaciones y sitios web mencionado
 * The Conversation, [Explicando la nueva PAC para no especialistas](https://theconversation.com/explicando-la-nueva-pac-para-no-especialistas-147654), 15 oct 2020
 
 * Sishodia et al., (2020) [Applications of Remote Sensing in Precision Agriculture: A Review](https://www.mdpi.com/2072-4292/12/19/3136)
+
+* [Global Open Data for Agriculture & Nutrition](https://www.godan.info/)
+
+* Nereus (2018) [THE EVER GROWING USE OF COPERNICUS ACROSS EUROPE’S REGIONS: A selection of 99 user stories by local and regional authorities](http://esamultimedia.esa.int/docs/EarthObservation/copernicus4regions_2018.pdf)
 

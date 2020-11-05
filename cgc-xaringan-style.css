@@ -1,8 +1,16 @@
+:root {
+  --color-blue: #44c8c4;
+  --color-green: #367b51;
+  --color-salmon: #eb6a60;
+  --color-turquoise: #4d8984;
+}
+
 /* Let's load some fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
 
 body { font-family: 'Open Sans' }
 
@@ -23,4 +31,23 @@ div.my-footer span {
     position: absolute;
     left: 15px;
     bottom: 2px;
+}
+
+
+.large {
+  font-size: 160%;
+}
+
+}
+
+.blue {
+  color: var(--color-blue);
+}
+
+.turquoise {
+  color: var(--color-turquoise);
+}
+
+.salmon {
+  color: var(--color-salmon);
 }
