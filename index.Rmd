@@ -13,11 +13,14 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
+    seal: false 
 ---
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
-#devtools::install_github("hadley/emo")
+library(knitr)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+# devtools::install_github("hadley/emo")
 # devtools::install_github("rstudio/fontawesome")
 library(emo)
 library(fontawesome) # from github: https://github.com/rstudio/fontawesome
@@ -25,12 +28,78 @@ library(fontawesome) # from github: https://github.com/rstudio/fontawesome
 
 layout: true
   
-<div class="my-footer"><span><a href="https://geotecinit.github.io/GISDay2020/index.html">geotecinit.github.io/GISDay2020</a></span></div>
+<div class="my-footer"><span>geotecinit.github.io/GISDay2020</span></div>
+
+<!-- this adds the link footer to all slides, depends on my-footer class in css-->
+
+---
+name: title
+class: left, middle
+background-image: url(figs/Sentinel-2A.jpg)
+background-size: cover
+
+# .whiteinline[GIS Day]
+
+<br/><br/>
+
+### .whiteinline[.fancy[Observando desde el espacio: <br>agricultura y medio ambiente]]
+
+<br/><br/><br/>
+
+.right[.large[Carlos Granell & Estefanía Aguilar]]
+.right[.large[GEOTEC | INIT | UJI]]
+.right[18 noviembre 2020]
+
+<!-- this ends up being the title slide since seal = FALSE-->
+
 
 ---
 class: center
 
 ![](figs/gisday-logo-proyectos.jpg)
+
+---
+class: center, middle
+
+![](figs/semana-ciencia-2020.png)
+
+
+---
+class: center
+
+### [geotec.uji.es](http://geotec.uji.es/)
+
+<iframe width="1000" height="500" src="http://geotec.uji.es/" frameborder="0" allowfullscreen></iframe>
+
+
+---
+class: inverse, middle, center
+
+# .fancy[Antes de empezar]
+
+--
+
+.pull-left[
+### .center[.fancy[.coldinline[vía corta]]]
+### .center[`r emo::ji("computer")`]
+]
+
+--
+
+.pull-right[
+### .center[.fancy[.heatinline[vía larga]]]
+### .center[`r emo::ji("computer")` + .fancy[`p`]]
+]
+
+
+???
+¡Bien! Estas leyendo las notas de la transparencia. 
+
+Aquí encontrarás enlaces a las fuentes utilizadas, videos explicativos y a otros recursos.
+
+La lista de recursos tambien está en el [repositorio de la presentación](https://github.com/GeoTecINIT/GISDay2020). 
+
+Para ocultar las notas, pulsa otra vez `p`. 
 
 
 <!------------------------->
@@ -39,99 +108,112 @@ class: center
 ---
 class: inverse, center, middle
 
-# GISDay 2020
+# GIS Day? `r emo::ji("confused")`
+
 
 ---
-# .center[¿Qué se celebra el 18 noviembre?]
+class: center
 
-.center[Día Europeo para la protección de los niños de la explotación sexual]
-
---
-
-.center[Día Mundial de los Record Guinness]
+# ¿Qué se celebra hoy?
 
 --
 
-.center[Día Europeo del uso prudente de antibióticos]
+Día Europeo para la protección de los niños de la explotación sexual]
 
 --
 
-.center[Día Internacional del Arte Islámico]
+Día Mundial de los Record Guinness
 
 --
 
-.center[.large[Día del Sistema de Información Geográfica `r emo::ji("earth")` - [GIS Day](https://www.gisday.com/)]]
+Día Europeo del uso prudente de antibióticos
+
+--
+
+Día Internacional del Arte Islámico
+
+--
+
+.fat[Día del Sistema de Información Geográfica - GIS Day `r emo::ji("earth")`]
 
 
 ???
-
-Concienciar de la importancia que la geografía desempeña en nuestras vidas, y promover la profundización del tema en las escuelas, comunidades y organizaciones. [Wikipedia](https://es.wikipedia.org/wiki/GIS_Day)
+El [GIS Day](https://www.gisday.com/) tiene como objetivo **concienciar de la importancia que la geografía desempeña en nuestras vidas**, y promover su conoenti y suo en las escuelas, comunidades y organizaciones. Fuente: [Wikipedia](https://es.wikipedia.org/wiki/GIS_Day)
 
 ---
 
 
 .left-column[
-  ### GISDay y GEOTEC
+  ### GIS Day & GEOTEC
 ]
 
 .right-column[
-.center[<img src="figs/gisday-geotec.png" width="80%"/>]
+  <iframe width="800" height="600" src="http://geotec.uji.es/tag/gisday/" frameborder="0" allowfullscreen></iframe>
 ]
-
 
 
 ---
 
 .left-column[
-  ### GISDay y GEOTEC
-  ### GISDay 2019
+  ### GIS Day & GEOTEC
+  ### GIS Day 2020
 ]
 
 .right-column[
-.center[<img src="http://geotec.uji.es/wp-content/uploads/2019/11/Sketch_blogpost-e1573826748231.jpg" width="80%"/>]
+  <iframe width="800" height="600" src="http://www.gisday.com/en-us/overview" frameborder="0" allowfullscreen></iframe>
 ]
 
-
----
-
-.left-column[
-  ### GISDay y GEOTEC
-  ### GISDay 2019
-  ### GISDay 2020
-]
-
-.right-column[![](figs/gisday2020-spain.png)]
-
+???
+Fuente: [www.gisday.com/en-us/overview](https://www.gisday.com/en-us/overview)
 
 ---
 
 
 .left-column[
-  ### GISDay y GEOTEC
-  ### GISDay 2019
-  ### GISDay 2020
+  ### GIS Day & GEOTEC
+  ### GIS Day 2020
 ]
 
 .right-column[
-.pull-left[.top[<img src="figs/grado-agro-logo.png" width="90%"/>]]
-
-.pull-right[.bottom[<img src="figs/grado-agro-salidas.png" width="100%"/>]] 
-
+  .center[<img src="figs/grado-agro-logo.png" width="60%"/>]
 ]
 
+---
+
+.left-column[
+  ### GIS Day & GEOTEC
+  ### GIS Day 2020
+]
+
+.right-column[
+  .center[<img src="figs/grado-agro-salidas.png" width="100%"/>]] 
+]
+
+
+---
+
+Proceso de captura de datos, recogida de  informacion precisa para la toma de decisiones en vuestro trabajo. y 
+luego evaluar que las decisiones/resultoados son los correctos
+
+Ahi, las tecnologias espaciales, los sistemas de información geográfica, y remote sensing os pueden ayudar
 
 
 <!------------------------->
 <!-- BLOQUE PRINCIPAL    -->
 <!------------------------->
+
+<!------------------------->
+<!-- SECCION GIS         -->
+<!------------------------->
+
 ---
 class: inverse, center, middle
 
-# Tecnologías GIS emergentes
+# Tecnologías GEO para la agricultura/medio ambiente
 
 --
 
-### [¿Como pueden ayudaros en la agricultura/medio ambiente]() 
+### [GIS]() 
 
 ---
 
@@ -177,8 +259,111 @@ Nos centramos en datos de **Observacion de la Tierra**]
 
 
 
+<!------------------------->
+<!-- BLOQUE REMOTE SENSING-->
+<!------------------------->
 
 
+
+---
+class: inverse, center, middle
+
+# Tecnologías emergentes para la agricultura/medio ambiente
+
+--
+
+### [REMOTE SENSING]() 
+.center[teledetección]
+
+---
+
+.pull-left[
+
+### .center[REMOTE]
+
+Significa que algo está fuera (legos, cerca) de nuestro alcance, .large[no lo tocamos físicamente]
+
+]
+
+.pull-right[
+
+### .center[SENSING]
+
+significa .large[obtener información] sobre algo
+
+]
+
+???
+Fuente: [What is Remote Sensing? Understanding Remote Sensing](https://www.youtube.com/watch?v=N49PzLDUIFQ)
+
+
+
+---
+
+### .center[REMOTE SENSING]
+
+.center[.large[obtener datos de un objeto sin estar en contacto directo o físico con dicho objeto]]
+
+???
+Fuente: [What is Remote Sensing? Understanding Remote Sensing](https://www.youtube.com/watch?v=N49PzLDUIFQ)
+
+--- 
+# .center[REMOTE SENSING]
+
+
+IMAGENES de ejemplos como radiograficas, fotos, y claro, imágenes satelites
+
+
+--- 
+
+# Principios básicos
+
+
+- Fuente de luz: Objetos absorben y reflejan luz
+- Detectar la luz reflejada del objeto (información)
+
+- Ejemplo: una camara de fotos. 
+
+???
+Fuente: [What is the Process of Remote Sensing?](https://www.youtube.com/watch?v=-7_0Z_tm2Z8)
+
+
+---
+# Active Remote Sensing
+
+
+???
+Fuente: [Passive vs Active Sensors in Remote Sensing](https://gisgeography.com/passive-active-sensors-remote-sensing/)
+
+---
+# Pasive Remote Sensing
+
+???
+Fuente: [Passive vs Active Sensors in Remote Sensing](https://gisgeography.com/passive-active-sensors-remote-sensing/)
+
+
+---
+
+Trasladar la idea de ACtive/passive remote sensing para la observacion de la tierra
+
+![](figs/types-remote-sensing.png)
+
+---
+
+![Espectro electromagnetico](figs/electromagnetic-spectrum.png)
+
+![Espectro electromagnetico en satelites](figs/electromagnetic-spectrum-in-satellite.png)
+
+---
+
+Ejemplos passive remote sensing. Derecha, Rocky Mountains in true color. Izquierda IR 
+
+???
+Fuente: [https://gisgeography.com/passive-active-sensors-remote-sensing/](https://gisgeography.com/passive-active-sensors-remote-sensing/)
+Enfasis en healthy vegetation in bright red. To say the least, there is a lot of it in this scene. While the bright white is built-up areas, the darkest shade is water. In the east, this could be a transmission line right-of-way because of how it’s constantly the same width.
+
+
+---
 
 
 
