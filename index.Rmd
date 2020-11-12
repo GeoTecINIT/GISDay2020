@@ -88,7 +88,7 @@ class: inverse, middle, center
 
 .pull-right[
 ### .center[.fancy[.heatinline[vía larga]]]
-### .center[`r emo::ji("computer")` + .fancy[`p`]]
+### .center[`r emo::ji("computer")` + `r fontawesome::fa(name = "link", fill = "white")` + `r fontawesome::fa(name = "keyboard", fill = "white")` + .fancy[`p`]]
 ]
 
 
@@ -160,7 +160,7 @@ El [GIS Day](https://www.gisday.com/) tiene como objetivo **concienciar de la im
 ]
 
 .right-column[
-  <iframe width="800" height="600" src="http://www.gisday.com/en-us/overview" frameborder="0" allowfullscreen></iframe>
+  ![](figs/gisday2020-spain.png)
 ]
 
 ???
@@ -186,16 +186,51 @@ Fuente: [www.gisday.com/en-us/overview](https://www.gisday.com/en-us/overview)
 ]
 
 .right-column[
-  .center[<img src="figs/grado-agro-salidas.png" width="100%"/>]] 
+  .center[<img src="figs/grado-agro-salidas.png" width="100%"/>] 
 ]
 
 
 ---
 
-Proceso de captura de datos, recogida de  informacion precisa para la toma de decisiones en vuestro trabajo. y 
-luego evaluar que las decisiones/resultoados son los correctos
+.left-column[
+  ### GIS Day & GEOTEC
+  ### GIS Day 2020
+]
 
-Ahi, las tecnologias espaciales, los sistemas de información geográfica, y remote sensing os pueden ayudar
+.right-column[
+  .center[<img src="figs/grado-agro-salidas-gis.jpg" width="100%"/>] 
+]
+
+
+---
+
+.left-column[
+  ### GIS Day & GEOTEC
+  ### GIS Day 2020
+]
+
+  
+.right-column[
+  ![](figs/a.svg)
+]
+
+
+
+---
+
+.left-column[
+  ### GIS Day & GEOTEC
+  ### GIS Day 2020
+]
+
+  
+.right-column[
+  ![](figs/b.svg)
+]
+
+
+???
+Proceso de captura de datos y recogida de informacion precisa para su analisis y toma de decisiones en vuestro trabajo. Luego, los resultados se evalucion para saber si son correctos. En este flujo, las tecnologias espaciales, los sistemas de información geográfica y remote sensing os pueden ayudar!
 
 
 <!------------------------->
@@ -213,49 +248,42 @@ class: inverse, center, middle
 
 --
 
-### [GIS]() 
+### .fat[Sistemas Información Geográfica (GIS)] 
 
 ---
 
-.left-column[
-  ### GIS y maps
-]
+# GIS & mapas
 
-.right-column[
 * Contar historias
 * Encontrar respuestas desde una nueva prespectiva
 * Hacernos nuevas preguntas
-]
-
----
-
-.left-column[
-  ### GIS y maps
-]
-
-.right-column[
-Muchos tipos de datos.... Imagen aqui]
-
-
----
-
-.left-column[
-  ### GIS y maps
-]
-
-.right-column[
+* Muchos tipos de datos.... Imagen aqui
 * Datos pare valorar, monitorizar, tomar decision
-]
+* Nos centramos en datos de **Observacion de la Tierra**]
+
+???
+https://artsexperiments.withgoogle.com/timelines#/glacier/rhoneglacier
+https://app.developer.here.com/covid19-bike-lanes-uk-europe/?city=barcelona
+https://david.frigge.nz/30DayMapChallenge/maps.html
+
+---
+
 
 
 ---
 
-.left-column[
-  ### GIS y maps
-]
 
-.right-column[
-Nos centramos en datos de **Observacion de la Tierra**]
+```{r}
+library(leaflet)
+UJI <- leaflet() %>% setView(lat =39.99278, lng =-0.06463, zoom = 15)
+UJI %>% addTiles()
+
+
+#UJI %>% addProviderTiles(providers$CartoDB.Positron)
+
+
+```
+
 
 
 
@@ -381,24 +409,28 @@ class: inverse, center, middle
 
 
 ---
-class: right, middle
+class: middle
 
-### Find GEOTEC at...
+.pull-left[
+  .right[
+  ### Find GEOTEC at...
+  
+  [`r fontawesome::fa(name = "link")` geotec](http://geotec.uji.es/)  
+  
+  ### Find me at...
+  
+  [`r fontawesome::fa(name = "github")` @cgranell](http://github.com/cgranell)  
+  [`r fontawesome::fa(name = "link")` carlosgranell.eu](https://carlosgranell.eu)  
+  [`r fontawesome::fa(name = "paper-plane")` carlos.granell@uji.es](mailto:carlos.granell@uji.es)
+]]
 
-[`r fontawesome::fa(name = "link")` geotec](http://geotec.uji.es/)  
-
-### Find me at...
-
-[`r fontawesome::fa(name = "github")` @cgranell](http://github.com/cgranell)  
-[`r fontawesome::fa(name = "link")` carlosgranell.eu](https://carlosgranell.eu)  
-[`r fontawesome::fa(name = "paper-plane")` carlos.granell@uji.es](mailto:carlos.granell@uji.es)
-
-### Find slides at...
-
-[`r fontawesome::fa(name = "link")` geotecinit/GISDay2020](https://geotecinit.github.io/GISDay2020/index.html)  
-
-### Find sources at...
-
-[`r fontawesome::fa(name = "github")` github.com/GeoTecINIT/GISDay2020](https://github.com/GeoTecINIT/GISDay2020)  
-
+.pull-right[
+  ### Find slides at...
+  
+  [`r fontawesome::fa(name = "link")` geotecinit.github.io/GISDay2020](https://geotecinit.github.io/GISDay2020/index.html)  
+  
+  ### Find sources at...
+  
+  [`r fontawesome::fa(name = "github")` github.com/GeoTecINIT/GISDay2020](https://github.com/GeoTecINIT/GISDay2020)  
+]
 
