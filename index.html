@@ -7,15 +7,6 @@
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
     <script src="libs/anchor-sections/anchor-sections.js"></script>
-    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
-    <script src="libs/jquery/jquery.min.js"></script>
-    <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
-    <script src="libs/leaflet/leaflet.js"></script>
-    <link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
-    <script src="libs/Proj4Leaflet/proj4-compressed.js"></script>
-    <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
-    <link href="libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
-    <script src="libs/leaflet-binding/leaflet.js"></script>
     <link rel="stylesheet" href="cgc-xaringan-style.css" type="text/css" />
   </head>
   <body>
@@ -132,7 +123,7 @@ Día Internacional del Arte Islámico
 
 --
 
-.fat[Día del Sistema de Información Geográfica - GIS Day 🌎]
+.fat[Día del Sistema de Información Geográfica - GIS Day 🌍]
 
 
 ???
@@ -209,9 +200,8 @@ Fuente: [www.gisday.com/en-us/overview](https://www.gisday.com/en-us/overview)
 
   
 .right-column[
-  ![](figs/a.svg)
+  ![](figs/workflow-agro-1.svg)
 ]
-
 
 
 ---
@@ -223,7 +213,19 @@ Fuente: [www.gisday.com/en-us/overview](https://www.gisday.com/en-us/overview)
 
   
 .right-column[
-  ![](figs/b.svg)
+  ![](figs/workflow-agro-2.svg)
+]
+
+---
+
+.left-column[
+  ### GIS Day &amp; GEOTEC
+  ### GIS Day 2020
+]
+
+  
+.right-column[
+  ![](figs/workflow-agro-3.svg)
 ]
 
 
@@ -242,60 +244,145 @@ Proceso de captura de datos y recogida de informacion precisa para su analisis y
 ---
 class: inverse, center, middle
 
-# Tecnologías GEO para la agricultura/medio ambiente
+# Tecnologías para agricultura/medio ambiente
 
 --
 
 ### .fat[Sistemas Información Geográfica (GIS)] 
 
 ---
+class: center
 
 # GIS &amp; mapas
 
-* Contar historias
-* Encontrar respuestas desde una nueva prespectiva
-* Hacernos nuevas preguntas
-* Muchos tipos de datos.... Imagen aqui
-* Datos pare valorar, monitorizar, tomar decision
-* Nos centramos en datos de **Observacion de la Tierra**]
+.pull-left[
+  ### Realidad
+]
+
+.pull-right[
+  ### Modelo
+]
 
 ???
-https://artsexperiments.withgoogle.com/timelines#/glacier/rhoneglacier
+No te puedes perder esta mezcla de arte, ciencia y GIS que muestra la contracción de los [glaciares](https://artsexperiments.withgoogle.com/timelines#/) en los últimos 100 años.
 
+---
+class: center
+
+# GIS &amp; mapas
+
+&lt;img src="https://raw.githubusercontent.com/tjukanovt/30DayMapChallenge/master/images/map_challenge_themes_2020.jpg"
+width="70%"/&gt;
+
+???
+Fuente: [El proyecto social de mapas para el 2020](https://github.com/tjukanovt/30DayMapChallenge)
+
+---
+class: center, middle
+
+### .fat[A través de los mapas ...]
 
 ---
 
+.left-column[
+  ### .fatinline[contamos historias]
+]
+
+.right-column[
+  .center[&lt;img src="https://david.frigge.nz/30DayMapChallenge/maps/Cchurchili_10.png" width="70%"/&gt;]
+]
+
+???
+Fuente: DAY 10 (BLACK AND WHITE) By Carl Churchill (@Cchurchili). https://david.frigge.nz/30DayMapChallenge/maps/Cchurchili_10.png
+
+Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapChallenge/maps.html)
+
+---
+.left-column[
+  ### contamos historias
+  ### .fatinline[encontramos respuestas]
+]
+
+.right-column[
+  .center[&lt;img src="https://david.frigge.nz/30DayMapChallenge/maps/volayaf_07.jpg" width="65%"/&gt;]
+]
+
+???
+Fuente: DAY 07 (RED) By Víctor Olaya (@volayaf). https://david.frigge.nz/30DayMapChallenge/maps/volayaf_07.jpg
+
+Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapChallenge/maps.html)
+
+---
+
+.left-column[
+  ### contamos historias
+  ### encontramos respuestas
+  ### .fatinline[o salen nuevas]
+]
+
+.right-column[
+  .center[&lt;img src="https://david.frigge.nz/30DayMapChallenge/maps/ninatsuts_06.jpg" width="90%"/&gt;]
+]
+
+???
+Fuente: DAY 06 (BLUE) By Nina Lindell (@ninatsuts). https://david.frigge.nz/30DayMapChallenge/maps/ninatsuts_06.jpg
+
+Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapChallenge/maps.html)
+
+---
+
+.left-column[
+  ### contamos historias
+  ### encontramos respuestas
+  ### o salen nuevas
+  ### .fatinline[tomamos decisiones]
+]
+
+.right-column[
+  .center[&lt;img src="https://david.frigge.nz/30DayMapChallenge/maps/iservia_06.jpg" width="90%"/&gt;]
+]
+
+???
+Fuente: DAY 06 (BLUE) By Ignasi Servià (@iservia). https://david.frigge.nz/30DayMapChallenge/maps/iservia_06.jpg
+
+Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapChallenge/maps.html)
 
 
-```r
-library(leaflet)
-UJI &lt;- leaflet() %&gt;% setView(lat =39.99278, lng =-0.06463, zoom = 15)
-UJI %&gt;% addTiles()
-```
+---
+class: center, middle
 
-&lt;!--hid="htmlwidget-7ba07f1a5ee5f49983ca" style="width:504px;height:504px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-7ba07f1a5ee5f49983ca">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[39.99278,-0.06463],15,[]],"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}]},"evals":[],"jsHooks":[]}</script><!--/r
-#UJI %&gt;% addProviderTiles(providers$CartoDB.Positron)
-```
+### .fat[pero sin datos, no hay mapas]
 
+--
 
+### .fat[ni historias, ]
+
+--
+
+### .fat[ni respuestas, ]
+
+--
+
+### .fat[ni decisiones, ...]
+
+---
+background-image: url(figs/i-want-data-now.jpg)
+background-size: cover
 
 
 &lt;!-------------------------&gt;
 &lt;!-- BLOQUE REMOTE SENSING--&gt;
 &lt;!-------------------------&gt;
 
-
-
 ---
 class: inverse, center, middle
 
-# Tecnologías emergentes para la agricultura/medio ambiente
+# Tecnologías de apoyo a la agricultura/medio ambiente
 
 --
 
-### [REMOTE SENSING]() 
-.center[teledetección]
+### .acid[Remote Sensing (Teledetección)] 
+
 
 ---
 
@@ -303,21 +390,22 @@ class: inverse, center, middle
 
 ### .center[REMOTE]
 
-Significa que algo está fuera (legos, cerca) de nuestro alcance, .large[no lo tocamos físicamente]
+significa que *algo* está fuera (lejos, cerca) de nuestro alcance, que .acid[no lo tocamos físicamente]
 
 ]
+
+--
 
 .pull-right[
 
 ### .center[SENSING]
 
-significa .large[obtener información] sobre algo
+significa .acid[obtener información] sobre ese *algo*
 
 ]
 
 ???
 Fuente: [What is Remote Sensing? Understanding Remote Sensing](https://www.youtube.com/watch?v=N49PzLDUIFQ)
-
 
 
 ---

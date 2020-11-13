@@ -85,13 +85,13 @@ div.my-footer span {
   font-size: 200%;
   font-weight:700;
 }
-/*
+
 .acid {
   color: var(--color-acid);
   font-size: 200%;
   font-weight:700;
 }
-*/
+
 .heat {
   color: var(--color-heat);
   font-size: 200%;
@@ -110,11 +110,11 @@ div.my-footer span {
 .fatinline {
   color: var(--color-fat);
 }
-/*
+
 .acidinline {
   color: var(--color-acid);
 }
-*/
+
 .heatinline {
   color: var(--color-heat);
 }

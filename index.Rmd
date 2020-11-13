@@ -211,9 +211,8 @@ Fuente: [www.gisday.com/en-us/overview](https://www.gisday.com/en-us/overview)
 
   
 .right-column[
-  ![](figs/a.svg)
+  ![](figs/workflow-agro-1.svg)
 ]
-
 
 
 ---
@@ -225,7 +224,19 @@ Fuente: [www.gisday.com/en-us/overview](https://www.gisday.com/en-us/overview)
 
   
 .right-column[
-  ![](figs/b.svg)
+  ![](figs/workflow-agro-2.svg)
+]
+
+---
+
+.left-column[
+  ### GIS Day & GEOTEC
+  ### GIS Day 2020
+]
+
+  
+.right-column[
+  ![](figs/workflow-agro-3.svg)
 ]
 
 
@@ -244,64 +255,145 @@ Proceso de captura de datos y recogida de informacion precisa para su analisis y
 ---
 class: inverse, center, middle
 
-# Tecnologías GEO para la agricultura/medio ambiente
+# Tecnologías para agricultura/medio ambiente
 
 --
 
 ### .fat[Sistemas Información Geográfica (GIS)] 
 
 ---
+class: center
 
 # GIS & mapas
 
-* Contar historias
-* Encontrar respuestas desde una nueva prespectiva
-* Hacernos nuevas preguntas
-* Muchos tipos de datos.... Imagen aqui
-* Datos pare valorar, monitorizar, tomar decision
-* Nos centramos en datos de **Observacion de la Tierra**]
+.pull-left[
+  ### Realidad
+]
+
+.pull-right[
+  ### Modelo
+]
 
 ???
-https://artsexperiments.withgoogle.com/timelines#/glacier/rhoneglacier
-https://app.developer.here.com/covid19-bike-lanes-uk-europe/?city=barcelona
-https://david.frigge.nz/30DayMapChallenge/maps.html
+No te puedes perder esta mezcla de arte, ciencia y GIS que muestra la contracción de los [glaciares](https://artsexperiments.withgoogle.com/timelines#/) en los últimos 100 años.
+
+---
+class: center
+
+# GIS & mapas
+
+<img src="https://raw.githubusercontent.com/tjukanovt/30DayMapChallenge/master/images/map_challenge_themes_2020.jpg"
+width="70%"/>
+
+???
+Fuente: [El proyecto social de mapas para el 2020](https://github.com/tjukanovt/30DayMapChallenge)
+
+---
+class: center, middle
+
+### .fat[A través de los mapas ...]
 
 ---
 
+.left-column[
+  ### .fatinline[contamos historias]
+]
 
+.right-column[
+  .center[<img src="https://david.frigge.nz/30DayMapChallenge/maps/Cchurchili_10.png" width="70%"/>]
+]
+
+???
+Fuente: DAY 10 (BLACK AND WHITE) By Carl Churchill (@Cchurchili). https://david.frigge.nz/30DayMapChallenge/maps/Cchurchili_10.png
+
+Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapChallenge/maps.html)
+
+---
+.left-column[
+  ### contamos historias
+  ### .fatinline[encontramos respuestas]
+]
+
+.right-column[
+  .center[<img src="https://david.frigge.nz/30DayMapChallenge/maps/volayaf_07.jpg" width="65%"/>]
+]
+
+???
+Fuente: DAY 07 (RED) By Víctor Olaya (@volayaf). https://david.frigge.nz/30DayMapChallenge/maps/volayaf_07.jpg
+
+Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapChallenge/maps.html)
 
 ---
 
+.left-column[
+  ### contamos historias
+  ### encontramos respuestas
+  ### .fatinline[o salen nuevas]
+]
 
-```{r}
-library(leaflet)
-UJI <- leaflet() %>% setView(lat =39.99278, lng =-0.06463, zoom = 15)
-UJI %>% addTiles()
+.right-column[
+  .center[<img src="https://david.frigge.nz/30DayMapChallenge/maps/ninatsuts_06.jpg" width="90%"/>]
+]
+
+???
+Fuente: DAY 06 (BLUE) By Nina Lindell (@ninatsuts). https://david.frigge.nz/30DayMapChallenge/maps/ninatsuts_06.jpg
+
+Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapChallenge/maps.html)
+
+---
+
+.left-column[
+  ### contamos historias
+  ### encontramos respuestas
+  ### o salen nuevas
+  ### .fatinline[tomamos decisiones]
+]
+
+.right-column[
+  .center[<img src="https://david.frigge.nz/30DayMapChallenge/maps/iservia_06.jpg" width="90%"/>]
+]
+
+???
+Fuente: DAY 06 (BLUE) By Ignasi Servià (@iservia). https://david.frigge.nz/30DayMapChallenge/maps/iservia_06.jpg
+
+Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapChallenge/maps.html)
 
 
-#UJI %>% addProviderTiles(providers$CartoDB.Positron)
+---
+class: center, middle
 
+### .fat[pero sin datos, no hay mapas]
 
-```
+--
 
+### .fat[ni historias, ]
 
+--
+
+### .fat[ni respuestas, ]
+
+--
+
+### .fat[ni decisiones, ...]
+
+---
+background-image: url(figs/i-want-data-now.jpg)
+background-size: cover
 
 
 <!------------------------->
 <!-- BLOQUE REMOTE SENSING-->
 <!------------------------->
 
-
-
 ---
 class: inverse, center, middle
 
-# Tecnologías emergentes para la agricultura/medio ambiente
+# Tecnologías de apoyo a la agricultura/medio ambiente
 
 --
 
-### [REMOTE SENSING]() 
-.center[teledetección]
+### .acid[Remote Sensing (Teledetección)] 
+
 
 ---
 
@@ -309,21 +401,22 @@ class: inverse, center, middle
 
 ### .center[REMOTE]
 
-Significa que algo está fuera (legos, cerca) de nuestro alcance, .large[no lo tocamos físicamente]
+significa que *algo* está fuera (lejos, cerca) de nuestro alcance, que .acid[no lo tocamos físicamente]
 
 ]
+
+--
 
 .pull-right[
 
 ### .center[SENSING]
 
-significa .large[obtener información] sobre algo
+significa .acid[obtener información] sobre ese *algo*
 
 ]
 
 ???
 Fuente: [What is Remote Sensing? Understanding Remote Sensing](https://www.youtube.com/watch?v=N49PzLDUIFQ)
-
 
 
 ---
