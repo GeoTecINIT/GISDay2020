@@ -1,6 +1,6 @@
 ---
 title: "Observando desde el espacio: agricultura y medio ambiente"
-subtitle: "<small>[GIS Day 2020](https://www.gisday.com/en-us/overview)</small> `r emo::ji('earth')`"
+subtitle: "<small>[GIS Day 2020](https://www.gisday.com/en-us/overview)</small>"
 author: "Carlos Granell, Estefanía Aguilar" 
 institute: "<small>[GEOTEC research group](http://geotec.uji.es/) - Universitat Jaume I, España</small>"
 date: "18 Noviembre 2020"
@@ -420,71 +420,325 @@ Fuente: [What is Remote Sensing? Understanding Remote Sensing](https://www.youtu
 
 
 ---
+class: center, middle
 
-### .center[REMOTE SENSING]
+# .acid[REMOTE SENSING]
 
-.center[.large[obtener datos de un objeto sin estar en contacto directo o físico con dicho objeto]]
+### obtener datos (propiedades, información) de un objeto (o fenómeno) sin estar en contacto directo o físico con dicho objeto.
 
 ???
 Fuente: [What is Remote Sensing? Understanding Remote Sensing](https://www.youtube.com/watch?v=N49PzLDUIFQ)
 
---- 
+---
 # .center[REMOTE SENSING]
 
+<img src="http://geotec.uji.es/wp-content/uploads/2019/11/GISDay_19DLL32-825x340.jpg" width="40%" style="float:left"/>
 
-IMAGENES de ejemplos como radiograficas, fotos, y claro, imágenes satelites
+<img src="https://medicinaysaludpublica.com/wp-content/uploads/2019/10/las-radiografias-torax-no-detectan-cuarta-parte-canceres-de-pulmon-segun-estudio-redes.jpg" width="35%"  style="float:left"/> 
+  
+.right[<img src="figs/espanya_satelite.jpg" width="35%"/>]
+  
+
+???
+Es cotidiano
+
+---
+
+.left-column[
+### .acidinline[Principios básicos]
+]
+
+.right-column[
+### .left[Fuente de .acidinline[luz]]
 
 
---- 
-
-# Principios básicos
+### .left[Objetos .acidinline[absorben] y .acidinline[reflejan] luz]
 
 
-- Fuente de luz: Objetos absorben y reflejan luz
-- Detectar la luz reflejada del objeto (información)
+### .left[Detectar la .acidinline[luz reflejada] del objeto (información)]
 
-- Ejemplo: una camara de fotos. 
+]
+
 
 ???
 Fuente: [What is the Process of Remote Sensing?](https://www.youtube.com/watch?v=-7_0Z_tm2Z8)
 
-
 ---
-# Active Remote Sensing
+
+.left-column[
+### Principios básicos
+### .acidinline[Passive RS]
+]
+
+.right-column[
+  .center[<img src="figs/passive-remote-sensing-camera-example2.jpg" width="80%"/>]
+]
 
 
 ???
 Fuente: [Passive vs Active Sensors in Remote Sensing](https://gisgeography.com/passive-active-sensors-remote-sensing/)
 
+¿Y si no hay luz en la habitación donde hacemos la foto o es de noche? Si no hay fuente de luz natural, no hay luz refeljada y por tanto  no se captura información (ho hay foto!)
+
+
 ---
-# Pasive Remote Sensing
+
+.left-column[
+### Principios básicos
+### Passive RS
+### .acidinline[Active RS]
+]
+
+.right-column[
+  <br/><br/>
+  .center[<img src="figs/active-remote-sensing-camera-example.png" width="70%"/>]
+]
+
 
 ???
 Fuente: [Passive vs Active Sensors in Remote Sensing](https://gisgeography.com/passive-active-sensors-remote-sensing/)
 
 
 ---
+class: center
+# .acidinline[Active vs Pasive] Remote Sensing
 
-Trasladar la idea de ACtive/passive remote sensing para la observacion de la tierra
+<img src="figs/types-remote-sensing.png" width="70%"/>
 
-![](figs/types-remote-sensing.png)
-
----
-
-![Espectro electromagnetico](figs/electromagnetic-spectrum.png)
-
-![Espectro electromagnetico en satelites](figs/electromagnetic-spectrum-in-satellite.png)
-
----
-
-Ejemplos passive remote sensing. Derecha, Rocky Mountains in true color. Izquierda IR 
 
 ???
-Fuente: [https://gisgeography.com/passive-active-sensors-remote-sensing/](https://gisgeography.com/passive-active-sensors-remote-sensing/)
-Enfasis en healthy vegetation in bright red. To say the least, there is a lot of it in this scene. While the bright white is built-up areas, the darkest shade is water. In the east, this could be a transmission line right-of-way because of how it’s constantly the same width.
+Trasladamos la idea de active/passive remote sensing para los satelites de observacion de la tierra
+
+---
+background-image: url(figs/nasa-apollo8-dec24-earthrise.jpg)
+background-size: cover
+
+--
+
+### .center[.whiteinline[Las imágenes de satélites no son solo fotos]] 
+
+
+???
+Fuente: [La imagen de la Tierra saliendo sobre la luna en 1968 que lo cambió todo](https://www.nationalgeographic.es/espacio/2018/12/la-imagen-de-la-tierra-saliendo-sobre-la-luna-en-1968-que-lo-cambio-todo)
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### .acidinline[Respuesta espectral]
+]
+
+.right-column[
+  ### Espectro electromagnético
+
+  ![Espectro electromagnetico](figs/electromagnetic-spectrum.png)
+]
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### .acidinline[Respuesta espectral]
+]
+
+.right-column[
+  ### Espectro electromagnético .acidinline[para RS]
+
+  ![Espectro electromagnetico en satelites](figs/electromagnetic-spectrum-in-satellite.png)
+]
 
 
 ---
+
+.pull-left[
+  ### .acidinline[True color] .small[(tal como lo vemos)]
+  
+  ![true-color](figs/rocky-mountains-true-color.png)
+]
+
+--
+
+.pull-right[
+  ### .heatinline[Infra red] .small[(esto no lo vemos)]
+  
+  ![infra-red](figs/rocky-mountains-color-infrared.png)
+]
+
+
+Imagen: Montañas rocosas (US)
+
+
+???
+Fuente: [https://gisgeography.com/passive-active-sensors-remote-sensing/](https://gisgeography.com/passive-active-sensors-remote-sensing/). En la imágen IR (derecha), la vegetación sana se muestra en rojo brillante. áreas urbanas y construidas en blanco brillante. Agua en oscuro. 
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### .acidinline[Respuesta espectral]
+]
+
+.right-column[
+  ### Firma espectral de la vegetación
+  
+  <img src="https://eo4geo.sbg.ac.at/IGIK/Sentinel2_Data_and_Vegetation_Indices/leaf_reflectance.png"/>
+]
+
+???
+Fuente: [Spectral Vegetation Signature](https://eo4geocourses.github.io/IGIK_Sentinel2-Data-and-Vegetation-Indices/#/8)
+
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### .acidinline[Respuesta espectral]
+]
+
+
+.right-column[
+  ### vegetación .acidinline[sana] `r fontawesome::fa(name = "not-equal")` vegetación .heatinline[enferma]
+  
+  .center[<img src="https://eo4geo.sbg.ac.at/IGIK/Sentinel2_Data_and_Vegetation_Indices/healthy_unhealthy_tree.jpeg" width="80%"/>]
+]
+
+???
+Fuente: [Vegetation indices](https://eo4geocourses.github.io/IGIK_Sentinel2-Data-and-Vegetation-Indices/#/11).
+
+La vegetación sana se refleja fuertemente en el espectro del infrarrojo cercano (NIR) mientras que absorbe mucho en el rojo visible.
+
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### .acidinline[Respuesta espectral]
+]
+
+.right-column[
+  ### **NDVI** .small[Normalized Difference Vegetation Index]
+
+  .center[<img src="https://eo4geo.sbg.ac.at/IGIK/Sentinel2_Data_and_Vegetation_Indices/NDVI_trees.png" width="70%"/>
+]]
+
+???
+Fuente: [Combination of multispectral bands](https://eo4geocourses.github.io/IGIK_Sentinel2-Data-and-Vegetation-Indices/#/17).
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### .acidinline[Respuesta espectral]
+]
+
+.right-column[
+  ### **NDVI** toma valores desde .heatinline[-1] a .acidinline[+1]
+
+<img src="https://www.cursosteledeteccion.com/wp-content/uploads/2019/10/ndvi_que_es1.png"/>
+]
+
+???
+Fuente: [NDVI, ¿qué es y para qué sirve?](https://www.cursosteledeteccion.com/ndvi-que-es-y-para-que-sirve/)
+
+Generalmemte, valores de NDVI entre 0.2 y 0.4 corresponden a áreas con vegetación escasa; la vegetación moderada tiende a variar entre 0.4 y 0.6; cualquier cosa por encima de 0.6 indica la mayor densidad posible de hojas verdes.
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### Respuesta espectral
+### .acidinline[Copernicus]
+]
+
+.right-column[
+
+  ### [Copernicus](https://www.copernicus.eu/) es el programa de la Unión Europea para la .acidinline[Observación de la Tierra]
+
+  ![](figs/remote-sensing-process1.png)
+]
+
+???
+
+Fuente: [What is the Copernicus programme](https://youtu.be/MGJss4lDaBo)
+
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### Respuesta espectral
+### .acidinline[Copernicus]
+]
+
+.right-column[
+
+  ### [Copernicus](https://www.copernicus.eu/) es el programa de la Unión Europea para la .acidinline[Observación de la Tierra]
+
+  ![](figs/remote-sensing-process2.jpg)
+]
+
+
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### Respuesta espectral
+### .acidinline[Copernicus]
+]
+
+.right-column[
+
+  ### Servicios temáticos
+
+  ![](figs/copernicus-services.png)
+]
+
+
+
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### Respuesta espectral
+### .acidinline[Copernicus]
+]
+
+.right-column[
+
+  ### Land MOnitorifn Service
+  
+  * [ESA Sentinel online](https://sentinels.copernicus.eu/web/sentinel/home)
+  
+  * [Copernicus Open Access Hub](https://scihub.copernicus.eu/) >> Open Hub
+  
+]
+
+??? 
+Fuente: [Land Monitoring Service](https://land.copernicus.eu/)
+
+Fuente: [Copernicus Service Land](https://eo4geocourses.github.io/GEOF_Copernicus-Service-Land/#/)
 
 
 

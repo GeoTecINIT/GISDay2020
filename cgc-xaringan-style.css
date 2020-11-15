@@ -45,6 +45,9 @@ div.my-footer span {
 
 /* font size */
 
+.small {
+  font-size: 60%;
+}
 
 .large {
   font-size: 160%;
