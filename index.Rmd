@@ -59,6 +59,26 @@ class: center
 ![](figs/gisday-logo-proyectos.jpg)
 
 ---
+class: center
+
+.pull-left[
+<img src="http://eo4geo.sbg.ac.at/GISIG/logo_big.png" width="30%"/>
+]
+
+.pull-right[
+<img src="figs/copernicus-logo.png" width="50%"/>
+]
+
+### The Space/Geospatial Sector Skills Alliance
+
+.left[Estrategia innovadora para el desarrollo de .large[habilidades] y .large[capacitación] <br/>en el sector de la geoinformación espacial]
+
+.right[Aumentar el número de personas que utilizan <br/>los datos y la información de Copernicus.]
+
+.right[Aumentar la oferta de habilidades para <br/>estimular el crecimiento de empleos relacionados con lo geoespacial en Europa.]
+
+
+---
 class: center, middle
 
 ![](figs/semana-ciencia-2020.png)
@@ -80,15 +100,15 @@ class: inverse, middle, center
 --
 
 .pull-left[
-### .center[.fancy[.coldinline[vía corta]]]
-### .center[`r emo::ji("computer")`]
+### .center[.fancy[.cold[vía corta]]]
+### .center[.large[`r emo::ji("computer")`]]
 ]
 
 --
 
 .pull-right[
-### .center[.fancy[.heatinline[vía larga]]]
-### .center[`r emo::ji("computer")` + `r fontawesome::fa(name = "link", fill = "white")` + `r fontawesome::fa(name = "keyboard", fill = "white")` + .fancy[`p`]]
+### .center[.fancy[.heat[vía larga]]]
+### .center[.large[`r emo::ji("computer")` + `r fontawesome::fa(name = "link", fill = "white")` + `r fontawesome::fa(name = "keyboard", fill = "white")` + .fancy[`p`]]]
 ]
 
 
@@ -328,7 +348,7 @@ Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapCha
 .left-column[
   ### contamos historias
   ### encontramos respuestas
-  ### .fatinline[o salen nuevas]
+  ### .fatinline[o salen nuevas preguntas]
 ]
 
 .right-column[
@@ -345,7 +365,7 @@ Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapCha
 .left-column[
   ### contamos historias
   ### encontramos respuestas
-  ### o salen nuevas
+  ### o salen nuevas preguntas
   ### .fatinline[tomamos decisiones]
 ]
 
@@ -399,7 +419,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-### .center[REMOTE]
+### .center[.acidinline[REMOTE]]
 
 significa que *algo* está fuera (lejos, cerca) de nuestro alcance, que .acid[no lo tocamos físicamente]
 
@@ -409,7 +429,7 @@ significa que *algo* está fuera (lejos, cerca) de nuestro alcance, que .acid[no
 
 .pull-right[
 
-### .center[SENSING]
+### .center[.acidinline[SENSING]]
 
 significa .acid[obtener información] sobre ese *algo*
 
@@ -440,7 +460,7 @@ Fuente: [What is Remote Sensing? Understanding Remote Sensing](https://www.youtu
   
 
 ???
-Es cotidiano
+Remote Sensing es cotidiano, no va solo sobre satélites.
 
 ---
 
@@ -501,7 +521,7 @@ Fuente: [Passive vs Active Sensors in Remote Sensing](https://gisgeography.com/p
 
 ---
 class: center
-# .acidinline[Active vs Pasive] Remote Sensing
+# .acidinline[Active vs Passive] Remote Sensing
 
 <img src="figs/types-remote-sensing.png" width="70%"/>
 
@@ -515,12 +535,12 @@ background-size: cover
 
 --
 
-### .center[.whiteinline[Las imágenes de satélites no son solo fotos]] 
+### .center[.whiteinline[Las imágenes de satélites no son sólo fotos]] 
 
 
 ???
-Fuente: [La imagen de la Tierra saliendo sobre la luna en 1968 que lo cambió todo](https://www.nationalgeographic.es/espacio/2018/12/la-imagen-de-la-tierra-saliendo-sobre-la-luna-en-1968-que-lo-cambio-todo)
 
+Las fotos de la tierra son espectaculares, como [La imagen de la Tierra saliendo sobre la luna en 1968 que lo cambió todo](https://www.nationalgeographic.es/espacio/2018/12/la-imagen-de-la-tierra-saliendo-sobre-la-luna-en-1968-que-lo-cambio-todo). Estamos acostumbrados a ver imégenes de satelites como mapas bases, por ejemplo, cuando utilizamos Google Maps. Sin embargo, hay mucho más que no podemos ver...
 ---
 
 .left-column[
@@ -531,7 +551,7 @@ Fuente: [La imagen de la Tierra saliendo sobre la luna en 1968 que lo cambió to
 ]
 
 .right-column[
-  ### Espectro electromagnético
+  ### .center[Espectro electromagnético]
 
   ![Espectro electromagnetico](figs/electromagnetic-spectrum.png)
 ]
@@ -546,7 +566,7 @@ Fuente: [La imagen de la Tierra saliendo sobre la luna en 1968 que lo cambió to
 ]
 
 .right-column[
-  ### Espectro electromagnético .acidinline[para RS]
+  ### .center[Espectro electromagnético .acidinline[para RS]]
 
   ![Espectro electromagnetico en satelites](figs/electromagnetic-spectrum-in-satellite.png)
 ]
@@ -585,7 +605,7 @@ Fuente: [https://gisgeography.com/passive-active-sensors-remote-sensing/](https:
 ]
 
 .right-column[
-  ### Firma espectral de la vegetación
+  ### .center[Firma espectral de la vegetación]
   
   <img src="https://eo4geo.sbg.ac.at/IGIK/Sentinel2_Data_and_Vegetation_Indices/leaf_reflectance.png"/>
 ]
@@ -605,7 +625,7 @@ Fuente: [Spectral Vegetation Signature](https://eo4geocourses.github.io/IGIK_Sen
 
 
 .right-column[
-  ### vegetación .acidinline[sana] `r fontawesome::fa(name = "not-equal")` vegetación .heatinline[enferma]
+  ### .center[vegetación .acidinline[sana] `r fontawesome::fa(name = "not-equal")` vegetación .heatinline[enferma]]
   
   .center[<img src="https://eo4geo.sbg.ac.at/IGIK/Sentinel2_Data_and_Vegetation_Indices/healthy_unhealthy_tree.jpeg" width="80%"/>]
 ]
@@ -626,7 +646,7 @@ La vegetación sana se refleja fuertemente en el espectro del infrarrojo cercano
 ]
 
 .right-column[
-  ### **NDVI** .small[Normalized Difference Vegetation Index]
+  ### .center[**NDVI** .small[Normalized Difference Vegetation Index]]
 
   .center[<img src="https://eo4geo.sbg.ac.at/IGIK/Sentinel2_Data_and_Vegetation_Indices/NDVI_trees.png" width="70%"/>
 ]]
@@ -644,7 +664,7 @@ Fuente: [Combination of multispectral bands](https://eo4geocourses.github.io/IGI
 ]
 
 .right-column[
-  ### **NDVI** toma valores desde .heatinline[-1] a .acidinline[+1]
+  ### .center[Valores **NDVI** entre .heatinline[-1] y .acidinline[+1]]
 
 <img src="https://www.cursosteledeteccion.com/wp-content/uploads/2019/10/ndvi_que_es1.png"/>
 ]
@@ -652,7 +672,53 @@ Fuente: [Combination of multispectral bands](https://eo4geocourses.github.io/IGI
 ???
 Fuente: [NDVI, ¿qué es y para qué sirve?](https://www.cursosteledeteccion.com/ndvi-que-es-y-para-que-sirve/)
 
-Generalmemte, valores de NDVI entre 0.2 y 0.4 corresponden a áreas con vegetación escasa; la vegetación moderada tiende a variar entre 0.4 y 0.6; cualquier cosa por encima de 0.6 indica la mayor densidad posible de hojas verdes.
+Generalmente, valores de NDVI entre 0.2 y 0.4 corresponden a áreas con vegetación escasa; la vegetación moderada tiende a variar entre 0.4 y 0.6; cualquier cosa por encima de 0.6 indica la mayor densidad posible de hojas verdes.
+
+Hay muchos índices espectrales de vegetación, y cada tipo de planta, cultivo, árbol, tiene una firma espectral única... 
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### .acidinline[Respuesta espectral]
+]
+
+.right-column[
+  ### 1 imagen `r fontawesome::fa(name = "equals")` N .acidinline[bandas espectrales]
+  
+  - N `r fontawesome::fa(name = "arrow-up")`: imagen multiespestral
+  - N .large[`r fontawesome::fa(name = "arrow-up")`]: imagen hiperespectral
+
+  <br/><br/>
+  
+  .center[<img src="https://desktop.arcgis.com/es/arcmap/latest/manage-data/raster-and-images/GUID-4F5A176A-D52A-4F07-9C2E-9922C1B6097D-web.gif" width="80%"/>]
+]
+
+???
+Fuente: [Bandas de Raster](https://desktop.arcgis.com/es/arcmap/latest/manage-data/raster-and-images/raster-bands.htm)
+
+No te pierdas este video explicativo para entender la firma espectral: [The Basics of Imagery - About Spectral Remote Sensing Data](https://www.youtube.com/watch?v=3iaFzafWJQE)
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### .acidinline[Respuesta espectral]
+]
+
+.right-column[
+  ### .center[True color `r fontawesome::fa(name = "equals")` .heatinline[R] `r fontawesome::fa(name = "plus")` .acidinline[G] `r fontawesome::fa(name = "plus")` .coldinline[B]]
+  
+  <img src="https://erinbecker.github.io/r-raster-vector-geospatial/images/dc-spatial-raster/RGBSTack_1.jpg"/>
+]
+
+
+???
+Fuente: [Work With Multi-Band Rasters in R](https://erinbecker.github.io/r-raster-vector-geospatial/05-raster-multi-band-in-r/index.html)
 
 ---
 
@@ -694,6 +760,23 @@ Fuente: [What is the Copernicus programme](https://youtu.be/MGJss4lDaBo)
 ]
 
 
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### Respuesta espectral
+### .acidinline[Copernicus]
+]
+
+.right-column[
+
+  ### .center[Constelación de Sentinels]
+
+  .center[<img src="figs/copernicus-sentinels.png" width="65%"/>]
+]
+
 
 ---
 
@@ -707,14 +790,12 @@ Fuente: [What is the Copernicus programme](https://youtu.be/MGJss4lDaBo)
 
 .right-column[
 
-  ### Servicios temáticos
+  ### .center[Servicios y productos temáticos]
 
   ![](figs/copernicus-services.png)
 ]
 
 
-
-
 ---
 
 .left-column[
@@ -727,7 +808,7 @@ Fuente: [What is the Copernicus programme](https://youtu.be/MGJss4lDaBo)
 
 .right-column[
 
-  ### Land MOnitorifn Service
+  ### Land Monitoring Service
   
   * [ESA Sentinel online](https://sentinels.copernicus.eu/web/sentinel/home)
   
@@ -735,11 +816,93 @@ Fuente: [What is the Copernicus programme](https://youtu.be/MGJss4lDaBo)
   
 ]
 
-??? 
+???
 Fuente: [Land Monitoring Service](https://land.copernicus.eu/)
 
 Fuente: [Copernicus Service Land](https://eo4geocourses.github.io/GEOF_Copernicus-Service-Land/#/)
 
+
+
+
+<!------------------------->
+<!-- BLOQUE PROYECTOS GEO-->
+<!------------------------->
+
+---
+class: inverse, center, middle
+
+# Tecnologías de apoyo a la agricultura/medio ambiente
+
+--
+
+### .cold[Ejemplos GEOTEC] 
+
+---
+
+.left-column[
+### .coldinline[SEnviro]
+]
+
+.right-column[
+  ### Estaciones meteorológicas de bajo coste
+  
+  .center[<img src="figs/senviro-campo.jpg"/ width="50%"/>]
+
+]
+
+???
+Fuente: [SEnviro website](http://geotec.uji.es/projects/senviro/)
+
+
+---
+
+.left-column[
+### .coldinline[SEnviro]
+]
+
+.right-column[
+  ### Estaciones meteorológicas de bajo coste
+  
+  .center[<img src="figs/senviro-montaje.jpg" width="80%"/>]
+
+]
+
+???
+Fuente: [SEnviro website](http://geotec.uji.es/projects/senviro/)
+
+---
+
+.left-column[
+### SEnviro
+### .coldinline[ERMES]
+]
+
+.right-column[
+  ### Monitorización/alerta cultivo arroz: .coldinline[regional]
+  
+  <iframe src="https://www.youtube.com/embed/qUCRJOcKsgQ" width="800" height="400" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+]
+
+???
+Fuente: [ERMES website](http://geotec.uji.es/projects/ermes/)
+
+---
+
+.left-column[
+### SEnviro
+### .coldinline[ERMES]
+]
+
+.right-column[
+  ### Monitorización/alerta cultivo arroz: .coldinline[local]
+  
+  <iframe src="https://www.youtube.com/embed/HMmeURaR50o" width="800" height="400" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+
+  
+]
+
+???
+Fuente: [ERMES website](http://geotec.uji.es/projects/ermes/)
 
 
 <!------------------------->
@@ -748,11 +911,45 @@ Fuente: [Copernicus Service Land](https://eo4geocourses.github.io/GEOF_Copernicu
 ---
 class: inverse, center, middle
 
-# Sumario
+# Mensaje final
 
 ---
+class: center, middle
 
-# Contenido bloque
+### .fancy[Para la agricultura,]
+
+### .fancy[.fat[GIS] y .acid[Remote Sensing]]
+
+### .fancy[son de gran ayuda en la .large[recogida de datos], en el .large[análisis], y en la .large[validación] de resultados.]
+
+
+---
+class: center, middle, inverse
+
+### .fancy[Pero nos hemos dejado .large[.heatinline[drones]] para imágenes de .large[.heatinline[alta resolución]].]
+
+---
+class: center
+
+### .fancy[¡Beneficiarios de .acid[Copernicus] como usuario finales!]
+
+![](figs/remote-sensing-process3.jpg)
+
+---
+class: center, middle, inverse
+
+### .fancy[Tampoco hemos visto .large[.heatinline[sensores in situ]] para agricultura de .large[.heatinline[precisión]] y .large[.heatinline[datos abiertos]] sobre agricultura.]
+
+---
+class: center, middle
+
+### .fancy[¡.cold[GEOTEC]]
+
+### .fancy[puede ayudaros a conocer más sobre la aplicación de tecnologías ]
+
+### .fancy[.fat[GIS] y .acid[Remote Sensing]]
+
+### .fancy[a vuesto campo!]
 
 
 ---

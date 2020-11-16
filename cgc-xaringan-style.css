@@ -109,7 +109,6 @@ div.my-footer span {
   color: var(--color-white);
 }
 
-
 .fatinline {
   color: var(--color-fat);
 }
@@ -122,3 +121,10 @@ div.my-footer span {
   color: var(--color-heat);
 }
 
+.waterinline {
+  color: var(--color-turquoise);
+}
+
+.salmoninline {
+  color: var(--color-salmon);
+}
