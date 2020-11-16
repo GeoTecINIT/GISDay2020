@@ -42,6 +42,23 @@ div.my-footer span {
     bottom: 2px;
 }
 
+/* links */
+
+/* links */
+
+a,
+a:visited {
+  color: var(--color-black);
+  border-bottom: 1px solid var(--color-acid);
+  box-shadow: inset 0 -2px 0 var(--color-acid);
+}
+
+a:hover,
+a:focus {
+  color: var(--color-black);
+  background: rgba(97, 172, 240, .5);
+  border-bottom: none;
+}
 
 /* font size */
 

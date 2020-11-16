@@ -38,11 +38,14 @@ class: left, middle
 background-image: url(figs/Sentinel-2A.jpg)
 background-size: cover
 
-# .whiteinline[GIS Day]
+### .whiteinline[.fancy[Observando desde <br/>el espacio: agricultura <br>y medio ambiente]]
 
 <br/><br/>
 
-### .whiteinline[.fancy[Observando desde el espacio: <br>agricultura y medio ambiente]]
+.large[.whiteinline[`#`GISDay]]
+
+.large[.whiteinline[`#`EO4GEO]]
+
 
 <br/><br/><br/>
 
@@ -62,20 +65,21 @@ class: center
 class: center
 
 .pull-left[
-<img src="http://eo4geo.sbg.ac.at/GISIG/logo_big.png" width="30%"/>
+  <img src="http://eo4geo.sbg.ac.at/GISIG/logo_big.png" width="30%"/>
 ]
 
 .pull-right[
-<img src="figs/copernicus-logo.png" width="50%"/>
+  <br/>
+  <img src="figs/copernicus-logo.png" width="50%"/>
 ]
 
 ### The Space/Geospatial Sector Skills Alliance
 
 .left[Estrategia innovadora para el desarrollo de .large[habilidades] y .large[capacitación] <br/>en el sector de la geoinformación espacial]
 
-.right[Aumentar el número de personas que utilizan <br/>los datos y la información de Copernicus.]
+.right[`r fontawesome::fa(name = "arrow-circle-right")` Aumentar el número de .large[personas] que utilizan <br/>los datos y la información de Copernicus.]
 
-.right[Aumentar la oferta de habilidades para <br/>estimular el crecimiento de empleos relacionados con lo geoespacial en Europa.]
+.right[`r fontawesome::fa(name = "arrow-circle-right")` Aumentar la oferta de .large[habilidades] para estimular <br/>el crecimiento de .large[empleos] relacionados con lo geoespacial en Europa.]
 
 
 ---
@@ -128,7 +132,7 @@ Para ocultar las notas, pulsa otra vez `p`.
 ---
 class: inverse, center, middle
 
-# GIS Day? `r emo::ji("confused")`
+# GIS Day? `r emo::ji("thinking")`
 
 
 ---
@@ -138,7 +142,7 @@ class: center
 
 --
 
-Día Europeo para la protección de los niños de la explotación sexual]
+Día Europeo para la protección de los niños de la explotación sexual
 
 --
 
@@ -288,10 +292,16 @@ class: center
 
 .pull-left[
   ### Realidad
+  
+  <img src="figs/gis-realworld.png"/>
 ]
 
+--
+
 .pull-right[
-  ### Modelo
+  ### Modelo (por capas)
+  
+  <img src="figs/gis-model.png" width="80%"/>
 ]
 
 ???
@@ -450,17 +460,14 @@ class: center, middle
 Fuente: [What is Remote Sensing? Understanding Remote Sensing](https://www.youtube.com/watch?v=N49PzLDUIFQ)
 
 ---
-# .center[REMOTE SENSING]
+class: center
+### .acidinline[REMOTE SENSING] está en todos partes...
 
-<img src="http://geotec.uji.es/wp-content/uploads/2019/11/GISDay_19DLL32-825x340.jpg" width="40%" style="float:left"/>
-
-<img src="https://medicinaysaludpublica.com/wp-content/uploads/2019/10/las-radiografias-torax-no-detectan-cuarta-parte-canceres-de-pulmon-segun-estudio-redes.jpg" width="35%"  style="float:left"/> 
-  
-.right[<img src="figs/espanya_satelite.jpg" width="35%"/>]
+<img src="figs/rs-examples.png" width="80%"/>
   
 
 ???
-Remote Sensing es cotidiano, no va solo sobre satélites.
+Remote Sensing es cotidiano, no va solo de satélites...
 
 ---
 
@@ -469,13 +476,11 @@ Remote Sensing es cotidiano, no va solo sobre satélites.
 ]
 
 .right-column[
-### .left[Fuente de .acidinline[luz]]
+  ### .left[`r fontawesome::fa(name = "arrow-circle-right")` Fuente de .acidinline[luz]]
 
+  ### .left[`r fontawesome::fa(name = "arrow-circle-right")` Objetos .acidinline[absorben] y .acidinline[reflejan] luz]
 
-### .left[Objetos .acidinline[absorben] y .acidinline[reflejan] luz]
-
-
-### .left[Detectar la .acidinline[luz reflejada] del objeto (información)]
+  ### .left[`r fontawesome::fa(name = "arrow-circle-right")` Detectar la .acidinline[luz reflejada] del objeto (información)]
 
 ]
 
@@ -498,7 +503,7 @@ Fuente: [What is the Process of Remote Sensing?](https://www.youtube.com/watch?v
 ???
 Fuente: [Passive vs Active Sensors in Remote Sensing](https://gisgeography.com/passive-active-sensors-remote-sensing/)
 
-¿Y si no hay luz en la habitación donde hacemos la foto o es de noche? Si no hay fuente de luz natural, no hay luz refeljada y por tanto  no se captura información (ho hay foto!)
+¿Y si no hay luz en la habitación donde hacemos la foto o es de noche? Si no hay fuente de luz natural, no hay luz reflejada y por tanto no se captura información (ho hay foto!)
 
 
 ---
@@ -566,7 +571,7 @@ Las fotos de la tierra son espectaculares, como [La imagen de la Tierra saliendo
 ]
 
 .right-column[
-  ### .center[Espectro electromagnético .acidinline[para RS]]
+  ### .center[Espectro electromagnético (.acidinline[Remote Sensing])]
 
   ![Espectro electromagnetico en satelites](figs/electromagnetic-spectrum-in-satellite.png)
 ]
@@ -589,7 +594,9 @@ Las fotos de la tierra son espectaculares, como [La imagen de la Tierra saliendo
 ]
 
 
-Imagen: Montañas rocosas (US)
+Imagen: Montañas rocosas (US).
+
+.fancy[¡Ojo! las imágenes de satélites tienen .acidinline[bandas], muy similar a la idea de .fatinline[capas]]
 
 
 ???
@@ -688,8 +695,8 @@ Hay muchos índices espectrales de vegetación, y cada tipo de planta, cultivo, 
 .right-column[
   ### 1 imagen `r fontawesome::fa(name = "equals")` N .acidinline[bandas espectrales]
   
-  - N `r fontawesome::fa(name = "arrow-up")`: imagen multiespestral
-  - N .large[`r fontawesome::fa(name = "arrow-up")`]: imagen hiperespectral
+  - Imagen multiespestral `r fontawesome::fa(name = "arrow-circle-right")` pocas bandas (N `r fontawesome::fa(name="arrow-down")`)  
+  - Imagen hiperespectral `r fontawesome::fa(name = "arrow-circle-right")` muchas bandas (N `r fontawesome::fa(name = "arrow-up")`)  
 
   <br/><br/>
   
@@ -732,7 +739,7 @@ Fuente: [Work With Multi-Band Rasters in R](https://erinbecker.github.io/r-raste
 
 .right-column[
 
-  ### [Copernicus](https://www.copernicus.eu/) es el programa de la Unión Europea para la .acidinline[Observación de la Tierra]
+  ### <img src="figs/copernicus-logo.png" width="20%"/> es el programa de la Unión Europea (+ ESA y EEA) para la .acidinline[Observación de la Tierra]
 
   ![](figs/remote-sensing-process1.png)
 ]
@@ -754,8 +761,9 @@ Fuente: [What is the Copernicus programme](https://youtu.be/MGJss4lDaBo)
 
 .right-column[
 
-  ### [Copernicus](https://www.copernicus.eu/) es el programa de la Unión Europea para la .acidinline[Observación de la Tierra]
+  ### <img src="figs/copernicus-logo.png" width="20%"/> incluye satélites, estaciones en tierra, y mucho más
 
+  
   ![](figs/remote-sensing-process2.jpg)
 ]
 
@@ -810,16 +818,20 @@ Fuente: [What is the Copernicus programme](https://youtu.be/MGJss4lDaBo)
 
   ### Land Monitoring Service
   
-  * [ESA Sentinel online](https://sentinels.copernicus.eu/web/sentinel/home)
+  .left[`r fontawesome::fa(name = "link")` .large[http://land.copernicus.eu]]
   
-  * [Copernicus Open Access Hub](https://scihub.copernicus.eu/) >> Open Hub
+  .left[`r fontawesome::fa(name = "arrow-circle-right")` [ESA Sentinel online](https://sentinels.copernicus.eu/web/sentinel/home)]
   
+  .left[`r fontawesome::fa(name = "arrow-circle-right")` [Copernicus Open Access Hub](https://scihub.copernicus.eu/) >> Open Hub]
+  
+  .left[`r fontawesome::fa(name = "arrow-circle-right")` [Sentinel-hub EO-Browser](https://apps.sentinel-hub.com/eo-browser/)]
+
 ]
 
 ???
 Fuente: [Land Monitoring Service](https://land.copernicus.eu/)
 
-Fuente: [Copernicus Service Land](https://eo4geocourses.github.io/GEOF_Copernicus-Service-Land/#/)
+Fuente: [EO4GEO: Copernicus Service Land](https://eo4geocourses.github.io/GEOF_Copernicus-Service-Land/#/)
 
 
 
@@ -846,7 +858,10 @@ class: inverse, center, middle
 .right-column[
   ### Estaciones meteorológicas de bajo coste
   
-  .center[<img src="figs/senviro-campo.jpg"/ width="50%"/>]
+  .left[`r fontawesome::fa(name = "link")` .large[http://geotec.uji.es/projects/senviro/]]
+
+  
+  .center[<img src="figs/senviro-campo.jpg"/ width="45%"/>]
 
 ]
 
@@ -878,7 +893,9 @@ Fuente: [SEnviro website](http://geotec.uji.es/projects/senviro/)
 ]
 
 .right-column[
-  ### Monitorización/alerta cultivo arroz: .coldinline[regional]
+  ### Monitorización/alerta cultivo arroz: .coldinline[nivel regional]
+  
+  .left[`r fontawesome::fa(name = "link")` .large[http://geotec.uji.es/projects/ermes/]]
   
   <iframe src="https://www.youtube.com/embed/qUCRJOcKsgQ" width="800" height="400" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
 ]
@@ -894,7 +911,9 @@ Fuente: [ERMES website](http://geotec.uji.es/projects/ermes/)
 ]
 
 .right-column[
-  ### Monitorización/alerta cultivo arroz: .coldinline[local]
+  ### Monitorización/alerta cultivo arroz: .coldinline[nivel local]
+  
+  .left[`r fontawesome::fa(name = "link")` .large[http://geotec.uji.es/projects/ermes/]]
   
   <iframe src="https://www.youtube.com/embed/HMmeURaR50o" width="800" height="400" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
 
@@ -931,7 +950,7 @@ class: center, middle, inverse
 ---
 class: center
 
-### .fancy[¡Beneficiarios de .acid[Copernicus] como usuario finales!]
+### .fancy[¡Beneficiarios de <img src="figs/copernicus-logo.png" width="20%"/> como usuarios finales!]
 
 ![](figs/remote-sensing-process3.jpg)
 
@@ -950,6 +969,12 @@ class: center, middle
 ### .fancy[.fat[GIS] y .acid[Remote Sensing]]
 
 ### .fancy[a vuesto campo!]
+
+
+---
+class: center, middle
+
+# .large[¿Buscas materiales para saber más?]
 
 
 ---
