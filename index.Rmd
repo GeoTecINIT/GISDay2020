@@ -192,6 +192,7 @@ El [GIS Day](https://www.gisday.com/) tiene como objetivo **concienciar de la im
 
 .right-column[
   ![](figs/gisday2020-spain.png)
+  .center[https://www.gisday.com/]
 ]
 
 ???
@@ -209,6 +210,9 @@ Fuente: [www.gisday.com/en-us/overview](https://www.gisday.com/en-us/overview)
   .center[<img src="figs/grado-agro-logo.png" width="60%"/>]
 ]
 
+???
+https://www.uji.es/estudis/oferta/base/graus/actual/agroalimentaria-p18/
+
 ---
 
 .left-column[
@@ -220,6 +224,8 @@ Fuente: [www.gisday.com/en-us/overview](https://www.gisday.com/en-us/overview)
   .center[<img src="figs/grado-agro-salidas.png" width="100%"/>] 
 ]
 
+???
+[Folleto informativo](https://www.uji.es/estudis/oferta/base/graus/actual/agroalimentaria-p18/bin/diptics/diptic.pdf)
 
 ---
 
@@ -268,12 +274,15 @@ Fuente: [www.gisday.com/en-us/overview](https://www.gisday.com/en-us/overview)
   
 .right-column[
   ![](figs/workflow-agro-3.svg)
+  
+  **Topografía**: CCR06 - Uso de sistemas de información geográfica y teledetección en agronomía!
 ]
 
 
 ???
 Proceso de captura de datos y recogida de informacion precisa para su analisis y toma de decisiones en vuestro trabajo. Luego, los resultados se evalucion para saber si son correctos. En este flujo, las tecnologias espaciales, los sistemas de información geográfica y remote sensing os pueden ayudar!
 
+Uno de los resultados de aprendizaje de la asignatura de [Topografía](https://ujiapps.uji.es/sia/rest/publicacion/2020/estudio/239/asignatura/AG1820) esta relacionado con el uso de información geográfica y teledetección en agronomía.
 
 <!------------------------->
 <!-- BLOQUE PRINCIPAL    -->
@@ -295,7 +304,7 @@ class: inverse, center, middle
 ---
 class: center
 
-# GIS & mapas
+# .fatinline[GIS & mapas]
 
 .pull-left[
   ### Realidad
@@ -317,18 +326,20 @@ No te puedes perder esta mezcla de arte, ciencia y GIS que muestra la contracci�
 ---
 class: center
 
-# GIS & mapas
 
-<img src="https://raw.githubusercontent.com/tjukanovt/30DayMapChallenge/master/images/map_challenge_themes_2020.jpg"
-width="70%"/>
+<img src="figs/gis-tools.jpg" width="60%"/>
 
 ???
-Fuente: [El proyecto social de mapas para el 2020](https://github.com/tjukanovt/30DayMapChallenge)
+
+Ejemplos de herramientas y software GIS
 
 ---
 class: center, middle
 
 ### .fat[A través de los mapas ...]
+
+???
+Fuente: [El proyecto social de mapas para el 2020](https://github.com/tjukanovt/30DayMapChallenge). Un tweet en 2019 proponiendo el reto de crear un mapa cada día durante el mes de Noviembre propició que la comunidad SIG se movilizara de forma altruista para crear cientos de mapas de temática diversas. Los 4 mapas siguientes son ejemplos del reto.
 
 ---
 
@@ -338,6 +349,8 @@ class: center, middle
 
 .right-column[
   .center[<img src="https://david.frigge.nz/30DayMapChallenge/maps/Cchurchili_10.png" width="70%"/>]
+  
+  .right[.small[`#`30DayMapChallenge]]
 ]
 
 ???
@@ -352,7 +365,9 @@ Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapCha
 ]
 
 .right-column[
-  .center[<img src="https://david.frigge.nz/30DayMapChallenge/maps/volayaf_07.jpg" width="65%"/>]
+  .center[<img src="https://david.frigge.nz/30DayMapChallenge/maps/volayaf_07.jpg" width="70%"/>]
+  
+  .right[.small[`#`30DayMapChallenge]]
 ]
 
 ???
@@ -370,6 +385,8 @@ Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapCha
 
 .right-column[
   .center[<img src="https://david.frigge.nz/30DayMapChallenge/maps/ninatsuts_06.jpg" width="90%"/>]
+
+  .right[.small[`#`30DayMapChallenge]]
 ]
 
 ???
@@ -388,6 +405,8 @@ Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapCha
 
 .right-column[
   .center[<img src="https://david.frigge.nz/30DayMapChallenge/maps/iservia_06.jpg" width="90%"/>]
+  
+  .right[.small[`#`30DayMapChallenge]]
 ]
 
 ???
@@ -842,6 +861,39 @@ Fuente: [EO4GEO: Copernicus Service Land](https://eo4geocourses.github.io/GEOF_C
 
 
 
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### Respuesta espectral
+### .acidinline[Copernicus]
+]
+
+.right-column[
+
+  ### Sentinel services for agriculture
+
+  <iframe src="https://www.youtube.com/embed/w_TACzzpVI0" width="800" height="400" frameborder="0" allow="fullscreen" allowfullscreen></iframe>  
+
+]
+
+???
+
+[Sentinel-2 short introduction](https://www.youtube.com/watch?v=Bv3pB9TaWOk)
+
+[Sentinel services for agriculture](https://www.youtube.com/watch?v=w_TACzzpVI0)
+
+[Earth from Space: Planted patchwork](https://www.youtube.com/watch?v=Rx6rwCkV0R4)
+
+
+---
+class: center
+
+<img src="figs/empresas-digital-farming.PNG" width="50%"/>
+
+https://chrieke.medium.com/map-of-geospatial-companies-ea9ec3a8a87c"
 
 <!------------------------->
 <!-- BLOQUE PROYECTOS GEO-->
@@ -937,7 +989,7 @@ Fuente: [ERMES website](http://geotec.uji.es/projects/ermes/)
 ---
 class: inverse, center, middle
 
-# Mensaje final
+# Y terminamos...
 
 ---
 class: center, middle
@@ -960,6 +1012,8 @@ class: center
 ### .fancy[¡Beneficiarios de <img src="figs/copernicus-logo.png" width="20%"/> como usuarios finales!]
 
 ![](figs/remote-sensing-process3.jpg)
+???
+No es necesario saber programar o ser un gurú de los ordenadores y procesamiento de imágenes de satélites. Lo imporante es saber donde podéis encontar información relevante para vuestro problemay tomar las decisiones y acciones más acertadas. 
 
 ---
 class: center, middle, inverse
@@ -981,7 +1035,17 @@ class: center, middle
 ---
 class: center, middle
 
-# .large[¿Buscas materiales para saber más?]
+### ¿Materiales para saber más?
+
+.large[http://www.eo4geo.eu/training/image-processing-and-analysis/]
+
+--
+
+### ¿Más? Muy pronto en
+
+<img src="http://eo4geo.sbg.ac.at/GISIG/logo_big.png" width="25%"/>
+
+.large[http://www.eo4geo.eu/]
 
 
 ---

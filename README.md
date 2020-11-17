@@ -41,3 +41,11 @@ Aquí listamos las referencias a servicios, aplicaciones y sitios web mencionado
 
 * Nereus (2018) [THE EVER GROWING USE OF COPERNICUS ACROSS EUROPE’S REGIONS: A selection of 99 user stories by local and regional authorities](http://esamultimedia.esa.int/docs/EarthObservation/copernicus4regions_2018.pdf)
 
+* [Sentinel-2 short introduction](https://www.youtube.com/watch?v=Bv3pB9TaWOk)
+
+* [Sentinel services for agriculture](https://www.youtube.com/watch?v=w_TACzzpVI0)
+
+* [Earth from Space: Planted patchwork](https://www.youtube.com/watch?v=Rx6rwCkV0R4)
+
+* [List of Geospatial Companies: EO, GIS, UAV, Agtech and more](https://chrieke.medium.com/map-of-geospatial-companies-ea9ec3a8a87c), by Christoph Rieke
+
