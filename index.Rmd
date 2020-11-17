@@ -75,7 +75,7 @@ class: center
 
 ### The Space/Geospatial Sector Skills Alliance
 
-.left[Estrategia innovadora para el desarrollo de .large[habilidades] y .large[capacitación] <br/>en el sector de la geoinformación espacial]
+.left[Estrategia innovadora para el desarrollo de .large[habilidades] y .large[capacitación] <br/>en el sector de la información espacial]
 
 .right[`r fontawesome::fa(name = "arrow-circle-right")` Aumentar el número de .large[personas] que utilizan <br/>los datos y la información de Copernicus.]
 
@@ -301,6 +301,10 @@ class: inverse, center, middle
 
 ### .fat[Sistemas Información Geográfica (GIS)] 
 
+???
+
+Primera pregunta ahora!
+
 ---
 class: center
 
@@ -493,7 +497,7 @@ class: center
   
 
 ???
-Remote Sensing es cotidiano, no va solo de satélites...
+Remote Sensing es cotidiano, no va solo de satélites, aunque sean los satélites lo que venga primero a la mente...
 
 ---
 
@@ -552,7 +556,7 @@ Fuente: [Passive vs Active Sensors in Remote Sensing](https://gisgeography.com/p
 
 ---
 class: center
-# .acidinline[Active vs Passive] Remote Sensing
+# .acidinline[Passive vs Active] Remote Sensing
 
 <img src="figs/types-remote-sensing.png" width="70%"/>
 
@@ -601,6 +605,51 @@ Las fotos de la tierra son espectaculares, como [La imagen de la Tierra saliendo
 
   ![Espectro electromagnetico en satelites](figs/electromagnetic-spectrum-in-satellite.png)
 ]
+
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### .acidinline[Respuesta espectral]
+]
+
+.right-column[
+  ### .center[1 imagen `r fontawesome::fa(name = "equals")` N .acidinline[bandas espectrales]]
+  
+  .center[`r fontawesome::fa(name = "arrow-circle-right")` Imagen multiespestral: **pocas** bandas (N `r fontawesome::fa(name="arrow-down")`)]  
+  .center[`r fontawesome::fa(name = "arrow-circle-right")` Imagen hiperespectral: **muchas** bandas (N `r fontawesome::fa(name = "arrow-up")`)]  
+
+  <br/><br/>
+  
+  .center[<img src="https://desktop.arcgis.com/es/arcmap/latest/manage-data/raster-and-images/GUID-4F5A176A-D52A-4F07-9C2E-9922C1B6097D-web.gif" width="80%"/>]
+]
+
+???
+Fuente: [Bandas de Raster](https://desktop.arcgis.com/es/arcmap/latest/manage-data/raster-and-images/raster-bands.htm)
+
+No te pierdas este video explicativo para entender la firma espectral: [The Basics of Imagery - About Spectral Remote Sensing Data](https://www.youtube.com/watch?v=3iaFzafWJQE)
+
+---
+
+.left-column[
+### Principios básicos
+### Passive RS
+### Active RS
+### .acidinline[Respuesta espectral]
+]
+
+.right-column[
+  ### .center[True color `r fontawesome::fa(name = "equals")` .heatinline[R] `r fontawesome::fa(name = "plus")` .acidinline[G] `r fontawesome::fa(name = "plus")` .coldinline[B]]
+  
+  <img src="https://erinbecker.github.io/r-raster-vector-geospatial/images/dc-spatial-raster/RGBSTack_1.jpg"/>
+]
+
+
+???
+Fuente: [Work With Multi-Band Rasters in R](https://erinbecker.github.io/r-raster-vector-geospatial/05-raster-multi-band-in-r/index.html)
 
 
 ---
@@ -668,7 +717,6 @@ Fuente: [Vegetation indices](https://eo4geocourses.github.io/IGIK_Sentinel2-Data
 
 La vegetación sana se refleja fuertemente en el espectro del infrarrojo cercano (NIR) mientras que absorbe mucho en el rojo visible.
 
-
 ---
 
 .left-column[
@@ -687,6 +735,9 @@ La vegetación sana se refleja fuertemente en el espectro del infrarrojo cercano
 ???
 Fuente: [Combination of multispectral bands](https://eo4geocourses.github.io/IGIK_Sentinel2-Data-and-Vegetation-Indices/#/17).
 
+
+NDVI cuantifica la vegetación midiendo la diferencia entre la banda de infrarrojo cercano (que la vegetación refleja mucho) y la luz roja (que la vegetación absorbe)
+
 ---
 
 .left-column[
@@ -699,7 +750,7 @@ Fuente: [Combination of multispectral bands](https://eo4geocourses.github.io/IGI
 .right-column[
   ### .center[Valores **NDVI** entre .heatinline[-1] y .acidinline[+1]]
 
-<img src="https://www.cursosteledeteccion.com/wp-content/uploads/2019/10/ndvi_que_es1.png"/>
+  <img src="https://www.cursosteledeteccion.com/wp-content/uploads/2019/10/ndvi_que_es1.png"/>
 ]
 
 ???
@@ -719,39 +770,13 @@ Hay muchos índices espectrales de vegetación, y cada tipo de planta, cultivo, 
 ]
 
 .right-column[
-  ### 1 imagen `r fontawesome::fa(name = "equals")` N .acidinline[bandas espectrales]
-  
-  - Imagen multiespestral `r fontawesome::fa(name = "arrow-circle-right")` pocas bandas (N `r fontawesome::fa(name="arrow-down")`)  
-  - Imagen hiperespectral `r fontawesome::fa(name = "arrow-circle-right")` muchas bandas (N `r fontawesome::fa(name = "arrow-up")`)  
+  ### .center[En agricultura, NDVI se utiliza para medir .acidinline[biomasa]]
 
-  <br/><br/>
-  
-  .center[<img src="https://desktop.arcgis.com/es/arcmap/latest/manage-data/raster-and-images/GUID-4F5A176A-D52A-4F07-9C2E-9922C1B6097D-web.gif" width="80%"/>]
+  <img src="figs/agricultura-precision-ndvi.jpg"/>
 ]
 
 ???
-Fuente: [Bandas de Raster](https://desktop.arcgis.com/es/arcmap/latest/manage-data/raster-and-images/raster-bands.htm)
-
-No te pierdas este video explicativo para entender la firma espectral: [The Basics of Imagery - About Spectral Remote Sensing Data](https://www.youtube.com/watch?v=3iaFzafWJQE)
-
----
-
-.left-column[
-### Principios básicos
-### Passive RS
-### Active RS
-### .acidinline[Respuesta espectral]
-]
-
-.right-column[
-  ### .center[True color `r fontawesome::fa(name = "equals")` .heatinline[R] `r fontawesome::fa(name = "plus")` .acidinline[G] `r fontawesome::fa(name = "plus")` .coldinline[B]]
-  
-  <img src="https://erinbecker.github.io/r-raster-vector-geospatial/images/dc-spatial-raster/RGBSTack_1.jpg"/>
-]
-
-
-???
-Fuente: [Work With Multi-Band Rasters in R](https://erinbecker.github.io/r-raster-vector-geospatial/05-raster-multi-band-in-r/index.html)
+Fuente: [DRONES EN AGRICULTURA DE PRECISIÓN](https://xn--airdroneespaa-tkb.com/drones-en-agricultura-de-precision/)
 
 ---
 
@@ -1019,6 +1044,9 @@ No es necesario saber programar o ser un gurú de los ordenadores y procesamient
 class: center, middle, inverse
 
 ### .fancy[Tampoco hemos visto .large[.heatinline[sensores in situ]] para agricultura de .large[.heatinline[precisión]] y .large[.heatinline[datos abiertos]] sobre agricultura.]
+
+???
+Segunda pregunta aquí: utilidad/interés en el tema
 
 ---
 class: center, middle
