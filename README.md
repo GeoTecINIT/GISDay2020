@@ -4,13 +4,13 @@
 ![](https://www.uji.es/com/agenda/2020/11/18/GIS-day/GISday2020.jpg?1604565997306)
 
 
-Para el GIS Day 2020, [GEOTEC](http://geotec.uji.es/), con la colaboración del Grado de Ingeniería Agroalimentaria y del Medio Rural y de mano del proyecto europeo [EO4GEO](http://www.eo4geo.eu), queremos celebrar el GIS Day con todos los estudiantes de 3º y 4º curso del Grado de Ingeniería agroalimentaria y del Medio Rural. Puedes encontrar más detalles en el [anuncio del evento](https://www.uji.es/com/agenda/2020/11/18/GIS-day/) 
+Para el GIS Day 2020, [GEOTEC](http://geotec.uji.es/), con la colaboración del Grado de Ingeniería Agroalimentaria y del Medio Rural y de la mano del proyecto europeo [EO4GEO](http://www.eo4geo.eu), queremos celebrar el GIS Day con todos los estudiantes de 3º y 4º curso del Grado de Ingeniería agroalimentaria y del Medio Rural. Además, este año esta charla forma parte de las actividades programadas en la [Semana de la Ciencia](https://www.uji.es/investigacio/base/cultura-cientifica/pc4/acc-divulga/setmana-cienc/), coordinada por el proyecto de [Cultura Científica i Ciencia Ciudadana (PC4)](https://www.uji.es/investigacio/base/cultura-cientifica/pc4/) de la UJI. Puedes encontrar más detalles en el [anuncio del evento](https://www.uji.es/com/agenda/2020/11/18/GIS-day/) 
 
 ## Presentación
 
 El título de la presentación: *Observando desde el espacio: agricultura y medio ambiente*
 
-El fichero index.Rmd contiene el código de la presentación, desarrollada con el paquete `xaringa`. También están disponibles la versión [html]() y [pdf]().
+El fichero index.Rmd contiene el código de la presentación, desarrollada con el paquete `xaringa`. También están disponibles la versión [html](http://geotecinit.github.io/GISDay2020/index.html) y [pdf]().
 
 ## Referencias
 
@@ -29,8 +29,7 @@ Aquí listamos las referencias a servicios, aplicaciones y sitios web mencionado
 
 * [Wayback machine](https://livingatlas.arcgis.com/wayback/?ext=-0.13641,39.91525,0.06101,40.03233&active=119)
 
-* El Español, [Agricultura computacional, el último proyecto de Google revolucionará el campo](https://www.elespanol.com/omicrono/tecnologia/20201021/agricultura-computacional-ultimo-proyecto-google-revolucionara-campo/529697524_0.html) (21 octubre, 2020)
-  * [Mineral](https://x.company/projects/mineral/)
+* El Español, [Agricultura computacional, el último proyecto de Google revolucionará el campo](https://www.elespanol.com/omicrono/tecnologia/20201021/agricultura-computacional-ultimo-proyecto-google-revolucionara-campo/529697524_0.html) (21 octubre, 2020). El sito web de [Mineral](https://x.company/projects/mineral/)
 
 * [RUS Copernicus Training programme](https://www.youtube.com/channel/UCB01WjameYMvL7-XfI8vRIA/videos): Algunos de agricultura
 
