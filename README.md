@@ -12,11 +12,11 @@ GEOTEC también es parte de la red [Copernicus Academy](https://www.copernicus.e
 
 El título de la presentación: *Observando desde el espacio: agricultura y medio ambiente*
 
-El fichero index.Rmd contiene el código de la presentación, desarrollada con el paquete `xaringa`. También están disponibles la versión [html](http://geotecinit.github.io/GISDay2020/index.html) y [pdf]().
+El fichero index.Rmd contiene el código de la presentación, desarrollada con el paquete `xaringa`. También están disponibles la versión [html](https://geotecinit.github.io/GISDay2020/index.html) y [pdf](https://geotecinit.github.io/GISDay2020/blob/main/index.pdf).
 
-## Referencias
+## Referencias y enlaces de interés
 
-Aquí listamos las referencias a servicios, aplicaciones y sitios web mencionados y/o utilizados en la presentación.
+Aquí listamos las referencias a servicios, aplicaciones y páginas web mencionados y/o utilizados en la presentación, y que seguro serán de vuestro interés.
 
 
 * [Stuff in space](http://stuffin.space/)
