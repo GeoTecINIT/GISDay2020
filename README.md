@@ -1,10 +1,12 @@
 # Presentación GISDay 2020
 
 
-![](https://www.uji.es/com/agenda/2020/11/18/GIS-day/GISday2020.jpg?1604565997306)
+<center>![](https://www.uji.es/com/agenda/2020/11/18/GIS-day/GISday2020.jpg?1604565997306)</center>
 
 
-Para el GIS Day 2020, [GEOTEC](http://geotec.uji.es/), con la colaboración del Grado de Ingeniería Agroalimentaria y del Medio Rural y de la mano del proyecto europeo [EO4GEO](http://www.eo4geo.eu), queremos celebrar el GIS Day con todos los estudiantes de 3º y 4º curso del Grado de Ingeniería agroalimentaria y del Medio Rural. Además, este año esta charla forma parte de las actividades programadas en la [Semana de la Ciencia](https://www.uji.es/investigacio/base/cultura-cientifica/pc4/acc-divulga/setmana-cienc/), coordinada por el proyecto de [Cultura Científica i Ciencia Ciudadana (PC4)](https://www.uji.es/investigacio/base/cultura-cientifica/pc4/) de la UJI. Puedes encontrar más detalles en el [anuncio del evento](https://www.uji.es/com/agenda/2020/11/18/GIS-day/) 
+Para el GIS Day 2020, [GEOTEC](http://geotec.uji.es/), con la colaboración del Grado de Ingeniería Agroalimentaria y del Medio Rural y de la mano del proyecto europeo [EO4GEO](http://www.eo4geo.eu), queremos celebrar el GIS Day con todos los estudiantes de 3º y 4º curso del Grado de Ingeniería agroalimentaria y del Medio Rural. Además, este año esta charla forma parte de las actividades programadas en la [Semana de la Ciencia](https://www.uji.es/investigacio/base/cultura-cientifica/pc4/acc-divulga/setmana-cienc/), coordinada por el proyecto de [Cultura Científica i Ciencia Ciudadana (PC4)](https://www.uji.es/investigacio/base/cultura-cientifica/pc4/) de la UJI. Puedes encontrar más detalles en el [anuncio del evento](https://www.uji.es/com/agenda/2020/11/18/GIS-day/).
+
+GEOTEC también es parte de la red [Copernicus Academy](https://www.copernicus.eu/en/opportunities/education/copernicus-academy) para facilitar la relación entre universidades, centros de investigación e industria en el uso de datos y servicio de Copernicus, así como en el desarrollo de materiales y acciones formativas en torno a Copernicus.
 
 ## Presentación
 
@@ -31,7 +33,9 @@ Aquí listamos las referencias a servicios, aplicaciones y sitios web mencionado
 
 * El Español, [Agricultura computacional, el último proyecto de Google revolucionará el campo](https://www.elespanol.com/omicrono/tecnologia/20201021/agricultura-computacional-ultimo-proyecto-google-revolucionara-campo/529697524_0.html) (21 octubre, 2020). El sito web de [Mineral](https://x.company/projects/mineral/)
 
-* [RUS Copernicus Training programme](https://www.youtube.com/channel/UCB01WjameYMvL7-XfI8vRIA/videos): Algunos de agricultura
+* [Research and User Support (RUS) Copernicus Training programme](https://www.youtube.com/channel/UCB01WjameYMvL7-XfI8vRIA/videos): Algunos de agricultura
+
+* [Mooc Copernicus MOOC](https://mooc.copernicus.eu/)
 
 * The Conversation, [Explicando la nueva PAC para no especialistas](https://theconversation.com/explicando-la-nueva-pac-para-no-especialistas-147654), 15 oct 2020
 

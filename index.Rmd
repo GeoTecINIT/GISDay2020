@@ -303,7 +303,7 @@ class: inverse, center, middle
 
 ???
 
-Primera pregunta ahora!
+Primera pregunta ahora!: conocimiento/uso previo de GIS
 
 ---
 class: center
@@ -384,7 +384,7 @@ Fuente: [30 DAY MAP CHALLENGE - Gallery Map](https://david.frigge.nz/30DayMapCha
 .left-column[
   ### contamos historias
   ### encontramos respuestas
-  ### .fatinline[o salen nuevas preguntas]
+  ### .fatinline[o surgen nuevas preguntas]
 ]
 
 .right-column[
@@ -1067,15 +1067,16 @@ class: center, middle
 
 .large[http://www.eo4geo.eu/training/image-processing-and-analysis/]
 
---
-
 ### ¿Más? Muy pronto en
 
 <img src="http://eo4geo.sbg.ac.at/GISIG/logo_big.png" width="25%"/>
 
 .large[http://www.eo4geo.eu/]
 
+???
+[Research and User Support (RUS) Copernicus Training programme](https://www.youtube.com/channel/UCB01WjameYMvL7-XfI8vRIA/videos): Algunos de agricultura
 
+[Copernicus MOOC](https://mooc.copernicus.eu/)
 ---
 class: middle
 
