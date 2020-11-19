@@ -13,6 +13,8 @@ El título de la presentación: *Observando desde el espacio: agricultura y medi
 
 El fichero index.Rmd contiene el código de la presentación, desarrollada con el paquete `xaringa`. También están disponibles la versión [html](https://geotecinit.github.io/GISDay2020/index.html) y [pdf](https://geotecinit.github.io/GISDay2020/index.pdf).
 
+`Update`: este [post](http://geotec.uji.es/2020/11/19/eo4geo-gisday-2020-at-ujiuniversitat-eo-and-copernicus-meet-agriculture/) resume el evento.
+
 ## Referencias y enlaces de interés
 
 Aquí listamos las referencias a servicios, aplicaciones y páginas web mencionados y/o utilizados en la presentación, y que seguro serán de vuestro interés.
